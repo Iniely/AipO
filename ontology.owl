@@ -1,0 +1,2381 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/aipo#"
+     xml:base="https://w3id.org/aipo"
+     xmlns:schema="http://schema.org/"
+     xmlns:aipo1="https://w3id.org/aipo#"
+     xmlns:aipo2="http://purl.org/aipo#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:aipo="https://w3id.org/aipo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="https://w3id.org/aipo#foaf:"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://w3id.org/aipo">
+        <rdfs:label xml:lang="en">Administration and International Bussiness Pensum&apos;s Ontology (AIPO)</rdfs:label>
+        <rdfs:comment xml:lang="es">Ontología que describre el Pensum de la carrera de Administración y Negocios Internacionales de la Universidad Peruana Unión</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ontology that describes the Pensum of the Administration and International Business career of the Universidad Peruana Unión</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#duration -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#duration"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:comment xml:lang="es">Responsable de elaborar el recurso. Puede ser una entidad, una persona o un servicio.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/member -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/member">
+        <rdfs:isDefinedBy>http://xmlns.com/foaf/0.1/member</rdfs:isDefinedBy>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#acquiredInCourse -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#acquiredInCourse">
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#aimsToLo"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#LearningOutcome"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:comment xml:lang="en">A learning outcome  is acquired in a course</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un resultado de aprendizaje es adquirido en un curso</rdfs:comment>
+        <rdfs:label xml:lang="en">acquiredInCourse</rdfs:label>
+        <rdfs:label xml:lang="es">adquirido en una asignatura</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#affiliatedWith -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#affiliatedWith">
+        <rdfs:comment xml:lang="en">Superproperty of some object properties that represents any type of affiliation relationship between the following classes: Educational Organization, Person, Curriculum, Course</rdfs:comment>
+        <rdfs:comment xml:lang="es">Superpropiedad de algunas propiedades de objeto que representa cualquier tipo de relación de afiliación entre las siguientes clases: Organización Educativa, Persona, Programa de Estudio, Asignatura</rdfs:comment>
+        <rdfs:label xml:lang="en">affiliated With</rdfs:label>
+        <rdfs:label xml:lang="es">afiliado con</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#aimsToLo -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#aimsToLo">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#LearningOutcome"/>
+        <rdfs:comment xml:lang="en">A subject achieves a learning outcome</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una asignatura logra un resultado de aprendizaje</rdfs:comment>
+        <rdfs:label xml:lang="en">aims to Learning Outcome</rdfs:label>
+        <rdfs:label xml:lang="es">logra un resultado de aprendizaje</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#alumnusOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#alumnusOf">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#hasAlumnus"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Departament"/>
+        <rdfs:comment xml:lang="en">A student is a student of a Professional School</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un estudiante es alumno una  Escuela Profesional</rdfs:comment>
+        <rdfs:label xml:lang="es">alumno de</rdfs:label>
+        <rdfs:label xml:lang="en">alumnus of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#attendsCourse -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#attendsCourse">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#hasAttender"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Student"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Course"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasCompleted"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#instructorOf"/>
+        <rdfs:comment xml:lang="en">A student attends one or more subjects or courses</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un estudiante asiste a una o varias asignaturas o cursos</rdfs:comment>
+        <rdfs:label xml:lang="es">asiste a una asignatura</rdfs:label>
+        <rdfs:label xml:lang="en">attends course</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#belongsTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:range rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:comment xml:lang="en">A professional school belongs to a University</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una Escuela profesional pertenece a una Universidad</rdfs:comment>
+        <rdfs:label xml:lang="en">belongs to</rdfs:label>
+        <rdfs:label xml:lang="es">pertenece a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#containsTo -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#containsTo">
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#isLinked"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:comment xml:lang="en">A strategic axis contains one or more courses</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un eje estratégico contiene uno o varios cursos</rdfs:comment>
+        <rdfs:label xml:lang="en">contains to</rdfs:label>
+        <rdfs:label xml:lang="es">contiene a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#contributesTo -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#contributesTo">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Competences"/>
+        <rdfs:comment xml:lang="en">One or more subjects contribute to one or more consentences</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una o varias asignaturas  contribuyen a una o varias compentencias</rdfs:comment>
+        <rdfs:label xml:lang="en">contributes to</rdfs:label>
+        <rdfs:label xml:lang="es">contribuye a</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#develops -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#develops">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#contributesTo"/>
+        <rdfs:comment xml:lang="en">Competence with a TOTAL correspondence to the curriculum. The contribution of the Curriculum is greater than 70%</rdfs:comment>
+        <rdfs:comment xml:lang="es">Competencia con una correspondencia TOTAL al plan de estudio. La contribución del Plan de Estudio es mayor al 70 %</rdfs:comment>
+        <rdfs:label xml:lang="es">desarrolla</rdfs:label>
+        <rdfs:label xml:lang="en">develops</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#enrolledIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#enrolledIn">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#hasRegistered"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Student"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#ProgramOfStudy"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasDegree"/>
+        <rdfs:comment xml:lang="en">A student is enrolled in a program of study</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un estudiante esta inscrito en un programa de estudios</rdfs:comment>
+        <rdfs:label xml:lang="en">enrolled in</rdfs:label>
+        <rdfs:label xml:lang="es">inscrito en</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#followsEM -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#followsEM">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#EvaluationMethod"/>
+        <rdfs:comment xml:lang="es">Una asignatura tiene una o mas metodologías de evaluación</rdfs:comment>
+        <rdfs:label xml:lang="en">follows evaluation method</rdfs:label>
+        <rdfs:label xml:lang="es">tiene una metodología de evaluación</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#followsTM -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#followsTM">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#TeachingMethod"/>
+        <rdfs:comment xml:lang="en">Course has teaching method</rdfs:comment>
+        <rdfs:label xml:lang="es">Un curso tiene un metódo de enseñanza</rdfs:label>
+        <rdfs:label xml:lang="en">follows teaching method</rdfs:label>
+        <rdfs:label xml:lang="es">sigue metodología de enseñanza</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasAcademicStaff -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasAcademicStaff">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#memberOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Departament"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#AcademicStaff"/>
+        <rdfs:comment xml:lang="es">La escuela profesional tiene uno varios personal académico</rdfs:comment>
+        <rdfs:comment xml:lang="en">The professional school has one of several academic staff</rdfs:comment>
+        <rdfs:label xml:lang="en">has academic staff</rdfs:label>
+        <rdfs:label xml:lang="es">tiene personal académico</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasAlumnus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasAlumnus">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Departament"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:comment xml:lang="en">A professional school has one or more students</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una escuela profesional tiene uno o varios alumnos</rdfs:comment>
+        <rdfs:label xml:lang="en">has alumnus</rdfs:label>
+        <rdfs:label xml:lang="es">tiene alumnos</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasAssitant -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasAssitant">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Professor"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasAttender"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasInstructor"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasSupervisor"/>
+        <rdfs:comment xml:lang="es">Una asignatura tiene docente adjunto</rdfs:comment>
+        <rdfs:label xml:lang="en">A course has an assitant</rdfs:label>
+        <rdfs:label xml:lang="en">has Assistant</rdfs:label>
+        <rdfs:label xml:lang="es">tiene docente adjunto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasAttender -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasAttender">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Student"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasCreator"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasInstructor"/>
+        <owl:propertyDisjointWith rdf:resource="https://w3id.org/aipo#hasSupervisor"/>
+        <rdfs:comment xml:lang="en">A course has one or more attendees</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un curso tiene uno o varios asistentes</rdfs:comment>
+        <rdfs:label xml:lang="en">has attender</rdfs:label>
+        <rdfs:label xml:lang="es">tiene asistentes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasCompetencesLA -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasCompetencesLA">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#isJoinned"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#IntegralFormation"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#IntegralFormation"/>
+        <rdfs:comment xml:lang="es">El eje  estratégico de  enseñanza aprendizaje tiene uno o varias competencias</rdfs:comment>
+        <rdfs:comment xml:lang="en">The strategic axis of learning education has one or more competencies</rdfs:comment>
+        <rdfs:label xml:lang="en">has competences</rdfs:label>
+        <rdfs:label xml:lang="es">tiene competencias</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasCompleted -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasCompleted">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Student"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:comment xml:lang="en">A student completed one or more courses</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un estudiante completó uno o varios cursos</rdfs:comment>
+        <rdfs:label xml:lang="es">ha completado</rdfs:label>
+        <rdfs:label xml:lang="en">has completed</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasCreator -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasCreator">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#AdministrativeStaff"/>
+        <rdfs:comment xml:lang="es">El sílabo tiene una persona quien lo elabora</rdfs:comment>
+        <rdfs:comment xml:lang="en">The syllabus has a person who makes it</rdfs:comment>
+        <rdfs:label xml:lang="en">has creator</rdfs:label>
+        <rdfs:label xml:lang="es">tiene creador</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasDegree -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasDegree">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#ProgramOfStudy"/>
+        <rdfs:comment xml:lang="en">A person has one or more academic degrees</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una persona tiene uno o varios grados académicos</rdfs:comment>
+        <rdfs:label xml:lang="en">has degree</rdfs:label>
+        <rdfs:label xml:lang="es">tiene grado</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasEmployee -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasEmployee">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#worksFor"/>
+        <rdfs:domain rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Employee"/>
+        <rdfs:comment xml:lang="en">An organization has one or more workers</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una organización tiene uno o varios trabajadores</rdfs:comment>
+        <rdfs:label xml:lang="en">has employee</rdfs:label>
+        <rdfs:label xml:lang="es">tiene empleado</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasEvent -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasEvent">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#isJoinned"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="en">A strategic axis has one or more events that are developed by the faculties and those responsible for the axis</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un eje estratégico  tiene uno o varios eventos que son desarrollados por los responsables del eje</rdfs:comment>
+        <rdfs:label xml:lang="en">has event</rdfs:label>
+        <rdfs:label xml:lang="es">tiene evento</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasInstructor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasInstructor">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Professor"/>
+        <rdfs:comment xml:lang="en">A course has an instructor who is a teacher</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una asignatura tiene un instructor que es un docente</rdfs:comment>
+        <rdfs:label xml:lang="en">has instructor</rdfs:label>
+        <rdfs:label xml:lang="es">tiene instructor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasLearningOutcome -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasLearningOutcome">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#LearningOutcome"/>
+        <rdfs:comment xml:lang="en">A course has one or more learning outcomes</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una asignatura tiene uno o varios resultados de aprendizaje</rdfs:comment>
+        <rdfs:label xml:lang="en">has Learning Outcome</rdfs:label>
+        <rdfs:label xml:lang="es">tiene resultado de aprendizaje</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasNationality -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasNationality">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/member"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Nationality"/>
+        <rdfs:comment xml:lang="en">A person has one or more nationalities</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una persona tiene una o varias nacionalidades</rdfs:comment>
+        <rdfs:label xml:lang="en">has nationality</rdfs:label>
+        <rdfs:label xml:lang="es">tiene nacionalidad</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasPrerequisite -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasPrerequisite">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:comment xml:lang="en">A course has one or more prerequisites</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una asignatura tiene uno o varios prerequisitos</rdfs:comment>
+        <rdfs:label xml:lang="en">has prerequisite</rdfs:label>
+        <rdfs:label xml:lang="es">tiene prerequisito</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasProduct -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasProduct">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#isJoinned"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="en">A strategic axis has one or more products that are, which can range from a report to an article. The products are presented by students at the axis events or in the classroom</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un eje estratégico  tiene uno o varios productos que son, que puede ser desde un informe hasta un artículo. Los productos son presentados por los estudiantes en los eventos del eje o en el salón de clases</rdfs:comment>
+        <rdfs:label xml:lang="en">has product</rdfs:label>
+        <rdfs:label xml:lang="es">tiene producto</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasRegistered -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasRegistered">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#ProgramOfStudy"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Student"/>
+        <rdfs:comment xml:lang="en">A program of study has one or more students</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un programa de estudio tiene uno o varios estudiantes</rdfs:comment>
+        <rdfs:label xml:lang="en">has registered</rdfs:label>
+        <rdfs:label xml:lang="es">tiene regsitrado</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasResourse -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasResourse">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:comment xml:lang="en">A course has learning resourses</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un curso tiene recursos de aprendizaje</rdfs:comment>
+        <rdfs:label xml:lang="es">has learning resource</rdfs:label>
+        <rdfs:label xml:lang="en">tiene recursos de aprendizaje</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasSupervisor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasSupervisor">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#AdministrativeStaff"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Professor"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">A course or syllabus has one or more supervisors</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un curso o sílabo tiene un o varios supervisores</rdfs:comment>
+        <rdfs:label xml:lang="en">has supervisor</rdfs:label>
+        <rdfs:label xml:lang="es">tiene supervisor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hasSyllabus -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#hasSyllabus">
+        <owl:inverseOf rdf:resource="https://w3id.org/aipo#syllabusOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:comment xml:lang="en">A subject has a syllabus</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una asignatura tiene un sílabo</rdfs:comment>
+        <rdfs:label xml:lang="en">has syllabus</rdfs:label>
+        <rdfs:label xml:lang="es">tiene sílabo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#instructorOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#instructorOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Professor"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">A teacher is an instructor of a course</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un docentes es instructor de una asignatura</rdfs:comment>
+        <rdfs:label xml:lang="es">instructor de</rdfs:label>
+        <rdfs:label xml:lang="en">instructor of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#isEvaluated -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#isEvaluated">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#GraduationProfile"/>
+        <rdfs:comment xml:lang="en">One or more courses are evaluated in the egress profile</rdfs:comment>
+        <rdfs:comment xml:lang="es">Uno o varias asignaturas son evaluadas en el perfil de egreso</rdfs:comment>
+        <rdfs:label xml:lang="es">es evaluado</rdfs:label>
+        <rdfs:label xml:lang="en">is evaluated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#isJoinned -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#isJoinned">
+        <rdfs:comment xml:lang="en">Superproperty of some object properties that represents any type of affiliation relationship between the following classes: Course and Strategic axes</rdfs:comment>
+        <rdfs:comment xml:lang="es">Superpropiedad de algunas propiedades de objeto que representa cualquier tipo de relación de afiliación entre las siguientes clases: asignaturas y ejes estratégicos</rdfs:comment>
+        <rdfs:label xml:lang="es">está unido</rdfs:label>
+        <rdfs:label xml:lang="en">is joinned</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#isLinked -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#isLinked">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="en">A subject is linked to a strategic axis</rdfs:comment>
+        <rdfs:comment xml:lang="es">Propiedad que representa las relaciones parte-todo</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una asignatura está vinculada a un eje estratégico</rdfs:comment>
+        <rdfs:label xml:lang="es">está vinculado</rdfs:label>
+        <rdfs:label xml:lang="en">is linked</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#memberOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#memberOf">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#AcademicStaff"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Departament"/>
+        <rdfs:comment xml:lang="en">An academic staff member of a faculty</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un personal académico es miembro de una o varias facultades</rdfs:comment>
+        <rdfs:label xml:lang="en">member of</rdfs:label>
+        <rdfs:label xml:lang="es">miembro de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#minorDevelops -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#minorDevelops">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#contributesTo"/>
+        <rdfs:comment xml:lang="es">Competencia con una correspondencia MENOR A LO PARCIAL al plan de estudio. La contribución del Plan de Estudio es menor al 35%</rdfs:comment>
+        <rdfs:comment xml:lang="en">Competition with a MINOR TO PARTIAL correspondence to the curriculum. The contribution of the Curriculum is less than 35%</rdfs:comment>
+        <rdfs:label xml:lang="es">desarrolla menor</rdfs:label>
+        <rdfs:label xml:lang="en">minor develops</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#partOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#partOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:comment xml:lang="en">Property that represents part-all relationships</rdfs:comment>
+        <rdfs:comment xml:lang="es">Propiedad que representa las relaciones parte-todo</rdfs:comment>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <rdfs:label xml:lang="es">parte de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#partiallyDevelops -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#partiallyDevelops">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#contributesTo"/>
+        <rdfs:comment xml:lang="en">Competence with a PARCIAL correspondence to the curriculum. The contribution of the Curriculum is between 35% and 65%</rdfs:comment>
+        <rdfs:comment xml:lang="es">Competencia con una correspondencia PARCIAL al plan de estudio. La contribución del Plan de Estudio está entre 35% y 65%</rdfs:comment>
+        <rdfs:label xml:lang="es">desarrolla parcial</rdfs:label>
+        <rdfs:label xml:lang="en">partially develops</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#requiresProgram -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#requiresProgram">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#ProgramOfStudy"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#ProgramOfStudy"/>
+        <rdfs:label xml:lang="es">requiere programa de estudios</rdfs:label>
+        <rdfs:label xml:lang="en">required program of study</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#supervisorOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#supervisorOf">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#AcademicStaff"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Professor"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">A teacher is a supervisor of one or more courses</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un docente es supervisor de uno o varios cursos</rdfs:comment>
+        <rdfs:label xml:lang="es">supervisor de</rdfs:label>
+        <rdfs:label xml:lang="en">supervisor of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#syllabusOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#syllabusOf">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:comment xml:lang="es">Es sílabo de una asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">It is a syllabus to a subject.</rdfs:comment>
+        <rdfs:label xml:lang="en">syllabus of</rdfs:label>
+        <rdfs:label xml:lang="es">sílabo de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#taughtIn -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#taughtIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Topic"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">A topic is taught in one or more courses.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un tema es enseñado en uno o varios cursos.</rdfs:comment>
+        <rdfs:label xml:lang="es">enseñado en</rdfs:label>
+        <rdfs:label xml:lang="en">taught in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#worksFor -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/aipo#worksFor">
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="https://w3id.org/aipo#affiliatedWith"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Employee"/>
+        <rdfs:range rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:comment xml:lang="en">An employee works for an organization</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un colaborador trabaja para una organización</rdfs:comment>
+        <rdfs:label xml:lang="es">trabaja para</rdfs:label>
+        <rdfs:label xml:lang="en">work for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Fecha de publicación del recurso</rdfs:label>
+        <rdfs:label xml:lang="en">Resource publication date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Descripcion del recurso</rdfs:label>
+        <rdfs:label xml:lang="en">Resource description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/language">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Idioma del recurso</rdfs:label>
+        <rdfs:label xml:lang="en">Resource language</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/publisher">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Company that publishes and prepares a book, responsible for making the resource available</rdfs:comment>
+        <rdfs:comment xml:lang="es">Compañía que que publica y prepara libro, responsable de que el recurso esté disponible</rdfs:comment>
+        <rdfs:label xml:lang="es">Editor</rdfs:label>
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/subject">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Tema del recurso</rdfs:label>
+        <rdfs:label xml:lang="en">Topic of the resource</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Nombre del recurso</rdfs:label>
+        <rdfs:label xml:lang="en">Resourse name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/address -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/address">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/aipo#address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:isDefinedBy xml:lang="en">http://schema.org/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">address</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/email -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/email">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/aipo#email"/>
+        <rdfs:isDefinedBy xml:lang="en">http://schema.org/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">email</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/legalName -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/legalName">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/aipo#legalName"/>
+        <rdfs:isDefinedBy xml:lang="en">http://schema.org/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">legal name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/url -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/url">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/aipo#url"/>
+        <rdfs:isDefinedBy xml:lang="en">http://schema.org/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">url</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/aipo#name"/>
+        <rdfs:isDefinedBy xml:lang="es">http://xmlns.com/foaf/0.1/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">first name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/lastName">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/aipo#surname"/>
+        <rdfs:isDefinedBy xml:lang="es">http://xmlns.com/foaf/0.1/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">last name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#academicAssistance -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#academicAssistance">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#universityService"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Academic Assistance - Academic Tutoring</rdfs:comment>
+        <rdfs:comment xml:lang="es">Asistencia académica - Tutoría Académica</rdfs:comment>
+        <rdfs:label xml:lang="es">Asistencia académica</rdfs:label>
+        <rdfs:label xml:lang="en">academic assistance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#academicYear -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#academicYear">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Academic year in which a course begins Eg: 2016-2017</rdfs:comment>
+        <rdfs:comment xml:lang="es">Año académico en la que un curso empieza Ej: 2016-2017</rdfs:comment>
+        <rdfs:label xml:lang="en">academic year</rdfs:label>
+        <rdfs:label xml:lang="es">año académico</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#address -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#address">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Address of a person&apos;s home</rdfs:comment>
+        <rdfs:comment xml:lang="es">Dirección de la vivienda de una persona</rdfs:comment>
+        <rdfs:label xml:lang="en">address</rdfs:label>
+        <rdfs:label xml:lang="es">dirección</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#axisDetail -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#axisDetail">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#StrategicAxis"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Topic"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">Descripción correspondiente a eje estratégico o un tema</rdfs:comment>
+        <rdfs:comment xml:lang="en">Description corresponding to strategic axis or a topic</rdfs:comment>
+        <rdfs:label xml:lang="es">descripción</rdfs:label>
+        <rdfs:label xml:lang="en">description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#codeCourse -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#codeCourse">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">Identidad académica del estudiante</rdfs:comment>
+        <rdfs:comment xml:lang="en">Student&apos;s academic identity</rdfs:comment>
+        <rdfs:label xml:lang="es">Código universitario</rdfs:label>
+        <rdfs:label xml:lang="en">Universitary code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#contactHours -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#contactHours">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment>Horas impartidas dentro del aula de clases.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Hours taught within the classroom.</rdfs:comment>
+        <rdfs:label xml:lang="en">Contact hours</rdfs:label>
+        <rdfs:label xml:lang="es">Horas presenciales</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#courseId -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#courseId">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+        <rdfs:comment xml:lang="es">Codificación de la asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">Course coding</rdfs:comment>
+        <rdfs:label xml:lang="es">course Id</rdfs:label>
+        <rdfs:label xml:lang="es">id de la asignatura</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#courseType -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#courseType">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Generic</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Specialty</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Specific</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">A course can be generic, specific or specialty</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una asignatura puede ser, genérica, específica o de especialidad</rdfs:comment>
+        <rdfs:label xml:lang="en">course type</rdfs:label>
+        <rdfs:label xml:lang="es">tipo de asignatura</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#creditsECTS -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#creditsECTS">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Credits that run a course</rdfs:comment>
+        <rdfs:comment xml:lang="es">Créditos que corresponden a una asignatura</rdfs:comment>
+        <rdfs:label xml:lang="es">créditos</rdfs:label>
+        <rdfs:label xml:lang="en">crédits</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#csName -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#csName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">Nombre oficial de un curso o sílabo</rdfs:comment>
+        <rdfs:comment xml:lang="en">Official name of a course or credit</rdfs:comment>
+        <rdfs:label xml:lang="en">course official name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre oficial del curso</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#detail -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#detail">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Competences"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">Detail of competence</rdfs:label>
+        <rdfs:label xml:lang="es">Detalle de competencia</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#duration -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#duration">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#duration"/>
+        <rdfs:comment xml:lang="es">El tiempo que dura un programa de estudio, un ciclo o un curso</rdfs:comment>
+        <rdfs:comment xml:lang="en">The duration of a program of study, semester, or course</rdfs:comment>
+        <rdfs:label xml:lang="es">duración</rdfs:label>
+        <rdfs:label xml:lang="en">duration</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#email -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#email">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment xml:lang="en">Institution email</rdfs:comment>
+        <rdfs:label xml:lang="es">correo electrónico</rdfs:label>
+        <rdfs:label xml:lang="en">e-mail</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#endDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#endDate">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">Date on which a curriculum, course, or cycle ends</rdfs:comment>
+        <rdfs:comment xml:lang="es">Fecha en la que termina un programa de estudio, asignatura, o ciclo</rdfs:comment>
+        <rdfs:label xml:lang="en">end date</rdfs:label>
+        <rdfs:label xml:lang="es">fecha final</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#evaluationInfo -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#evaluationInfo">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">Información relacionada a la evaluacion de una asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">Information related to the evaluation of a course</rdfs:comment>
+        <rdfs:label xml:lang="en">evaluation info</rdfs:label>
+        <rdfs:label xml:lang="es">informe de evaluación</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#feedService -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#feedService">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#universityService"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="es">Servicio de alimentación</rdfs:comment>
+        <rdfs:label xml:lang="es">Servicio de alimentación</rdfs:label>
+        <rdfs:label xml:lang="en">feed service</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#hours -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#hours">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">La cantidad de horas pedagógicas que posee una asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">The number of pedagogical hours a course has</rdfs:comment>
+        <rdfs:label xml:lang="es">horas</rdfs:label>
+        <rdfs:label xml:lang="en">hours</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#institutional -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#institutional">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#universityAcreditation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="es">La SUNEDU establece estándares y evalúa el desempeño de las instituciones en su conjunto.</rdfs:comment>
+        <rdfs:comment xml:lang="en">SUNEDU sets standards and evaluates the performance of institutions as a whole.</rdfs:comment>
+        <rdfs:label xml:lang="es">institucional</rdfs:label>
+        <rdfs:label xml:lang="en">institutional</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#isExperienced -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#isExperienced">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Professor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="es">Indicador si el personal docente tiene experencia en su materia</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicator if teaching staff have experience in their subject matter</rdfs:comment>
+        <rdfs:label xml:lang="en">is experienced</rdfs:label>
+        <rdfs:label xml:lang="es">tiene experiencia</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#kaCompetencesDetail -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#kaCompetencesDetail">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#KnowledgeArea"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Detalle de las áreas de conocimiento</rdfs:label>
+        <rdfs:label xml:lang="en">Knowledge area detail</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#label -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#label">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#legalName -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#legalName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">Nombre oficial de la Institución</rdfs:comment>
+        <rdfs:comment xml:lang="en">Official name of the Institution</rdfs:comment>
+        <rdfs:label xml:lang="es">nombre oficial</rdfs:label>
+        <rdfs:label xml:lang="en">organization official name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#loDetail -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#loDetail">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#LearningOutcome"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="es">Detalle de resultados de aprendizaje</rdfs:label>
+        <rdfs:label xml:lang="en">Learning Outcome detail</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#minimunScoreRequired -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#minimunScoreRequired">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">La nota  mínima aprobatoria para un curso es, 13/20</rdfs:comment>
+        <rdfs:comment xml:lang="en">The minimum passing grade for a course is, 13/20</rdfs:comment>
+        <rdfs:label xml:lang="en">minimun score required</rdfs:label>
+        <rdfs:label xml:lang="es">nota mínima requerida</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#mobilePhone -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#mobilePhone">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">A person&apos;s phone number</rdfs:comment>
+        <rdfs:comment xml:lang="es">Número telefónico de una persona</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://schema.org/telephone"/>
+        <rdfs:label xml:lang="es">celular</rdfs:label>
+        <rdfs:label xml:lang="en">mobile phone</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#name -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">El nombre de una persona</rdfs:comment>
+        <rdfs:comment xml:lang="en">People´s  first name</rdfs:comment>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+        <rdfs:label xml:lang="es">nombre</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#nocontactHours -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#nocontactHours">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Horas impartidas fuera del aula, tambien puede ser las horas de tutoría del curso.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Hours taught outside the classroom, can also be the course tutoring time</rdfs:comment>
+        <rdfs:label xml:lang="es">Horas no presenciales</rdfs:label>
+        <rdfs:label xml:lang="en">Non-contact hours</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#officeHours -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#officeHours">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Employee"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">El horario en las que un personal docente se encuentra en su ofina</rdfs:comment>
+        <rdfs:comment xml:lang="en">The schedule at which a teaching staff is in their office</rdfs:comment>
+        <rdfs:label xml:lang="es">horas en oficina</rdfs:label>
+        <rdfs:label xml:lang="en">office hours</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#personID -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#personID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Number of a person&apos;s ID</rdfs:comment>
+        <rdfs:comment xml:lang="es">Número del documento de identidad de una persona</rdfs:comment>
+        <rdfs:label xml:lang="es">DNI</rdfs:label>
+        <rdfs:label xml:lang="en">person Id</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#practicalHours -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#practicalHours">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Horas dedicadas a impartir la práctica de la asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">Hours dedicated to teaching the subject practice</rdfs:comment>
+        <rdfs:label xml:lang="es">Horas prácticas</rdfs:label>
+        <rdfs:label xml:lang="en">Practical hours</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#resourceType -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#resourceType">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Resourse"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>basic</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>complemtary</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>virtual</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Tipo de recurso utilizado. El recurso puede ser complementario, básico o virtual</rdfs:comment>
+        <rdfs:comment xml:lang="en">Type of resource used. The resource can be complementary, basic or virtual</rdfs:comment>
+        <rdfs:label xml:lang="en">Resource type</rdfs:label>
+        <rdfs:label xml:lang="es">Tipo de recurso</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#room -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#room">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Name of the classroom where a subject is given</rdfs:comment>
+        <rdfs:comment xml:lang="es">Nombre del aula dónde se dicta una asignatura</rdfs:comment>
+        <rdfs:label xml:lang="es">aula</rdfs:label>
+        <rdfs:label xml:lang="en">classroom</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#schedule -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#schedule">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">Horario de clases en las que se imparte una asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">Hours of classes in which a subject is taught</rdfs:comment>
+        <rdfs:label xml:lang="es">horario de clases</rdfs:label>
+        <rdfs:label xml:lang="en">schedule</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#semesterInProgram -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#semesterInProgram">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Course"/>
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Syllabus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
+        <rdfs:comment xml:lang="es">El semestre en la que se dicta una asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">The semester in which a subject is taught</rdfs:comment>
+        <rdfs:label xml:lang="en">Semester in program</rdfs:label>
+        <rdfs:label xml:lang="es">Semestre en curso</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#sleepingService -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#sleepingService">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#universityService"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="es">Asistencia Social - Bienestar Universitario.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Servicio de internado</rdfs:comment>
+        <rdfs:label xml:lang="es">Internado</rdfs:label>
+        <rdfs:label xml:lang="en">sleeping service</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#socialAssistance -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#socialAssistance">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#universityService"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="es">Asistencia Social - Bienestar Universitario.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Social Assistance - University Welfare.</rdfs:comment>
+        <rdfs:label xml:lang="es">Asistencia Social</rdfs:label>
+        <rdfs:label xml:lang="en">social assistance</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#specialized -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#specialized">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/aipo#universityAcreditation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="es">SUNEDU,  hace lo mismo para una escuela profesional dentro de una institución. La acreditación especializada prevalece en casi todos los campos profesionales</rdfs:comment>
+        <rdfs:comment xml:lang="en">SUNEDU, does the same for a professional school within an institution. Specialized accreditation prevails in almost all professional fields</rdfs:comment>
+        <rdfs:label xml:lang="es">especializada</rdfs:label>
+        <rdfs:label xml:lang="en">specialized</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#startDate -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#startDate">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="es">Fecha de inicio de un ciclo, programa de estudio, asignatura.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Start date of a cycle, curriculum, subject.</rdfs:comment>
+        <rdfs:label xml:lang="es">fecha de inicio</rdfs:label>
+        <rdfs:label xml:lang="en">start date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#studentModality -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#studentModality">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Student"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>blended</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>distance</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>face-to-face</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">El estudiante puede estar en la modalidad: presencial. semi presencial o a distancia</rdfs:comment>
+        <rdfs:comment xml:lang="en">The student can be in the modality: face-to-face. semi face-to-face or remotely</rdfs:comment>
+        <rdfs:label xml:lang="es">Modalidad de estudios del estudiante</rdfs:label>
+        <rdfs:label xml:lang="en">Student&apos;s study modality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#surname -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#surname">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="es">El apellido de una persona</rdfs:comment>
+        <rdfs:comment xml:lang="en">People&apos;s last name</rdfs:comment>
+        <rdfs:label xml:lang="es">apellido</rdfs:label>
+        <rdfs:label xml:lang="en">surname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#syllabusModality -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#syllabusModality">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>blended</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>distance</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>face-to-face</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">La modalidad del sílabo puede ser para un curso que se dicte de manera presencial, semipresencial o a distancia</rdfs:comment>
+        <rdfs:comment xml:lang="en">The syllable modality can be for a course that is taught in person, blended or remotely</rdfs:comment>
+        <rdfs:label xml:lang="es">Modalidad del sílabo</rdfs:label>
+        <rdfs:label xml:lang="en">Syllabus modality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#theoricalHours -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#theoricalHours">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Syllabus"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minExclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="es">Horas dedicadas a impartir la teoría de la asignatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">Hours dedicated to teach the theory of the subject</rdfs:comment>
+        <rdfs:label xml:lang="es">Horas teóricas</rdfs:label>
+        <rdfs:label xml:lang="en">Theoreatical hours</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#universityAcreditation -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#universityAcreditation">
+        <rdfs:domain rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:comment xml:lang="es">El proceso de acreditación y licenciamiento de las Universidades en el Perú, es llevado a cabo por la SUNEDU.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The accreditation and licensing process of the Universities in Peru is carried out by SUNEDU.</rdfs:comment>
+        <rdfs:label xml:lang="en">University acreditation</rdfs:label>
+        <rdfs:label xml:lang="es">acreditación universitaria</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#universityService -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#universityService">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Services provided by the University, in addition to teaching</rdfs:comment>
+        <rdfs:comment xml:lang="es">Servicios que brinda la Universidad, a parte de la enseñanza</rdfs:comment>
+        <rdfs:label xml:lang="es">Servicios de la Universidad</rdfs:label>
+        <rdfs:label xml:lang="en">university service</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#url -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#url">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment xml:lang="es">Dirección web de la Universidad</rdfs:comment>
+        <rdfs:label xml:lang="en">University&apos;s web address</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#workingCondition -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#workingCondition">
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Employee"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Employee</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Hired Full Time</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>Hired Part Time</rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>Missionary</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">A worker&apos;s employment status may be: Missionary, Part-time Contract, full-time contract, or employee</rdfs:comment>
+        <rdfs:comment xml:lang="es">La condición laboral de un trabajador puede ser: Misionero, Contrado a tiempo parcial, contratado a tiempo completo o empleado</rdfs:comment>
+        <rdfs:label xml:lang="es">condición laboral</rdfs:label>
+        <rdfs:label xml:lang="en">working condition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/aipo#foaf:gender -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/aipo#foaf:gender">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <rdfs:label xml:lang="en">Gender</rdfs:label>
+        <rdfs:label xml:lang="es">Género</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/EducationalOrganization -->
+
+    <owl:Class rdf:about="http://schema.org/EducationalOrganization">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Organization"/>
+        <rdfs:comment xml:lang="es">Institución encargada de impartir servicios educativos autorizada por el estado para brindar programas de estudios que condiucen a un grado y título profesional.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Institution in charge of providing educational services authorized by the state to provide study programs leading to a degree and professional title.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:label xml:lang="en">Educational organization</rdfs:label>
+        <rdfs:label xml:lang="es">Indtitución Educativa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Organization -->
+
+    <owl:Class rdf:about="http://schema.org/Organization">
+        <rdfs:comment xml:lang="es">An organization is an association of people who interact with each other and use resources of various kinds in order to achieve certain objectives or goals.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una organización es una asociación de personas que se relacionan entre sí y utilizan recursos de diversa índole con el fin de lograr determinados objetivos o metas.</rdfs:comment>
+        <rdfs:label xml:lang="es">Organización</rdfs:label>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Group -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
+        <rdfs:isDefinedBy>http://xmlns.com/foaf/0.1/</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Foaf Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <owl:equivalentClass rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:isDefinedBy xml:lang="en">http://xmlns.com/foaf/0.1</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#AcademicStaff -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#AcademicStaff">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Employee"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#Student"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#UndergraduateStudent"/>
+        <rdfs:comment xml:lang="es">Personal encargado del área académica de una Institución Educativa</rdfs:comment>
+        <rdfs:comment xml:lang="en">Personnel in charge of the academic area of an Educational Institution</rdfs:comment>
+        <rdfs:label xml:lang="en">Academic Staff</rdfs:label>
+        <rdfs:label xml:lang="es">Personal Académico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#AdministrativeStaff -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#AdministrativeStaff">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Employee"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#Student"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#UndergraduateStudent"/>
+        <rdfs:comment xml:lang="en">Administrative staff of an organization</rdfs:comment>
+        <rdfs:comment xml:lang="es">Personal administrativo de una organizacion</rdfs:comment>
+        <rdfs:label xml:lang="en">Administrative Staff</rdfs:label>
+        <rdfs:label xml:lang="es">Personal Administrativo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#BachelorDegree -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#BachelorDegree">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#ProgramOfStudy"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#Degree"/>
+        <rdfs:comment xml:lang="en">Academic degree awarded by a university to a person who has completed undergraduate studies and supported his research article.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Grado académico otorgado por una universidad a una persona que ha completado los estudios de pregrado y sustenado su artículo de investigación.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bachelor degree</rdfs:label>
+        <rdfs:label xml:lang="es">Grado académico de bachiller</rdfs:label>
+        <rdfs:seeAlso>https://drive.google.com/file/d/19MI3BAUe_493d8tolRqTAZZwt64NqtEe/view</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#CompetenceIF -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#CompetenceIF">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#IntegralFormation"/>
+        <rdfs:label xml:lang="es">Competencias eje Enseñanza aprendizaje</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Competences -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Competences">
+        <rdfs:comment xml:lang="en">A general statement detailing the desired knowledge and skills of the student graduating from the course or program of study.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una declaración general que detalla los conocimientos y habilidades deseados del estudiante que egresa del curso o programa de estudios.</rdfs:comment>
+        <rdfs:label xml:lang="en">Competences</rdfs:label>
+        <rdfs:label xml:lang="es">Competencias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#CoreCourse -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#CoreCourse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Course"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#ElectiveCourse"/>
+        <rdfs:comment xml:lang="en">Courses that all students must complete before they can move to the next level / semester in their education.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Cursos que todos los estudiantes deben completar antes de que puedan pasar al siguiente nivel/Ciclo en su educación.</rdfs:comment>
+        <rdfs:label xml:lang="es">Asignatura/Curso obligatorio</rdfs:label>
+        <rdfs:label xml:lang="en">Core course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Course -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Course">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/aipo#partOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/aipo#KnowledgeArea"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="es">Cada una de las materias que forman parte de un plan de estudio</rdfs:comment>
+        <rdfs:comment xml:lang="en">Each of the subjects that are part of a study plan</rdfs:comment>
+        <rdfs:label xml:lang="en">Course</rdfs:label>
+        <rdfs:label xml:lang="es">Curso/Asignatura</rdfs:label>
+        <rdfs:seeAlso>Un curso puede ser: Génerico, Específico y de Especialidad</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#CulturalExtension -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#CulturalExtension">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/aipo#partOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/aipo#LinkedEnviroment"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="es">Eje estratégico relacionado al servicio. Sus actividades son permanentes y se manifiestan mediante acciones de servicio a la comunidad o programas especiales de capacitación que la facultad o carrera profesional programe relacionadas a l logro de cometencias generales y específicas</rdfs:comment>
+        <rdfs:comment xml:lang="en">Strategic axis related to service. Their activities are permanent and are manifested through community service actions or special training programs that the faculty or professional career programs related to the achievement of general and specific commitments.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cultural Extension</rdfs:label>
+        <rdfs:label xml:lang="es">Extensión Cultural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Curriculum -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Curriculum">
+        <rdfs:comment xml:lang="es">Documento marco que contiene objetivos educacionales, perfil de egreso, resultados de aprendizaje, plan de estudios, sistema de evauación</rdfs:comment>
+        <rdfs:comment xml:lang="en">Framework document containing educational objectives, graduation profile, learning outcomes, curriculum, assessment system</rdfs:comment>
+        <rdfs:label xml:lang="en">Curriculum</rdfs:label>
+        <rdfs:label xml:lang="es">Plan curricular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Degree -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Degree">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#ProgramOfStudy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/aipo#requiresProgram"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/aipo#BachelorDegree"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Para su obtención requiere poseer el grado de bachiller y la sustentación de una tesis o trabajo de suficiencia profesional</rdfs:comment>
+        <rdfs:comment xml:lang="en">To obtain the Degree, it is required to have a bachelor&apos;s degree and the support of a thesis or work of professional sufficiency</rdfs:comment>
+        <rdfs:label xml:lang="es">Título profesional</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Departament -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Departament">
+        <rdfs:subClassOf rdf:resource="http://schema.org/EducationalOrganization"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#Person"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#School"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:comment xml:lang="es">Conjunto de estudios, generalmente universitarios, que habilitan para el ejercicio de una profesión</rdfs:comment>
+        <rdfs:comment xml:lang="en">Group of studies, generally university, that qualify for the exercise of a profession</rdfs:comment>
+        <rdfs:label xml:lang="es">Carrera Profesional/Escuela Profesional</rdfs:label>
+        <rdfs:label xml:lang="en">Departament</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#ElectiveCourse -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#ElectiveCourse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Course"/>
+        <rdfs:comment xml:lang="en">Course that the student chooses voluntarily in order to meet a particular requirement and orient their training to some specialty</rdfs:comment>
+        <rdfs:comment xml:lang="es">Curso que el estudiante elige por voluntad a fin de cumplir con un requisito en particular y orientar su formación a algunas especialidad</rdfs:comment>
+        <rdfs:label xml:lang="es">Asignatura/Curso electivo</rdfs:label>
+        <rdfs:label xml:lang="en">Elective course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Employee -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Employee">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:comment xml:lang="en">Person who works in an institution</rdfs:comment>
+        <rdfs:comment xml:lang="es">Persona que labora en una institución</rdfs:comment>
+        <rdfs:label xml:lang="es">Empleado/Trabajdor</rdfs:label>
+        <rdfs:label xml:lang="en">Employee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#EvaluationMethod -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#EvaluationMethod">
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#TeachingMethod"/>
+        <rdfs:comment xml:lang="en">Methodology used by the teacher to measure the student&apos;s knowledge</rdfs:comment>
+        <rdfs:comment xml:lang="es">Metodología utilizada por el docente para medir los conocimientos del estudiante</rdfs:comment>
+        <rdfs:label xml:lang="en">Evaluation Method</rdfs:label>
+        <rdfs:label xml:lang="es">Metodología de evaluación</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Generic -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Generic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Competences"/>
+        <rdfs:comment xml:lang="en">General competences are knowledge developed common to students of any career. These generic competences can be: instrumental, interpersonal and intrapersonal.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Las competencias generales son saberes desarrollados común a estudiantes de cualquier carrera. Éstas competencias genéricas puesden ser: instrumentales, interpersonales e intrapersonales.</rdfs:comment>
+        <rdfs:label xml:lang="en">Generic</rdfs:label>
+        <rdfs:label xml:lang="es">Genérico</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#GenericArea -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#GenericArea">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#KnowledgeArea"/>
+        <rdfs:comment xml:lang="es">Orientada a capacitar a los estudiantes en los dominios de las capacidades y conocimientos básicos que son el soporte de aprendizajes más complejos y especializados.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Oriented to train students in the domains of basic skills and knowledge that support more complex and specialized learning.</rdfs:comment>
+        <rdfs:label xml:lang="en">Generic Area</rdfs:label>
+        <rdfs:label xml:lang="es">Área genérica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#GraduationProfile -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#GraduationProfile">
+        <rdfs:comment xml:lang="es">El perfil de egreso se define como el conjunto de competencias (capacidades, habilidades, conocimientos, y actitudes) permiten que la persiba sea acreditada legalmente por una institución educativa, a fin de que pueda desempeñarse en su carrera y ser reconocido por la sociedad como un profesional.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The graduate profile is defined as the set of competencies (capabilities, skills, knowledge, and attitudes) that allow the person to be legally accredited by an educational institution, so that he can perform in his career and be recognized by society as a professional.</rdfs:comment>
+        <rdfs:label xml:lang="en">Graduation Profile</rdfs:label>
+        <rdfs:label xml:lang="es">Perfil de egreso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#IntegralFormation -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#IntegralFormation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="es">Eje estratégico que hace referencia al proceso de enseñanza y aprendizaje de las carreras profesionales a través de actividades de diseño y evaluación curricular, movilidad estudiantil, nivelación, reforzamienro y prácticas pre prorfesioanles.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Strategic axis that refers to the teaching and learning process of professional careers through curricular design and evaluation activities, student mobility, leveling, reinforcement and pre-professional practices.</rdfs:comment>
+        <rdfs:label xml:lang="es">Enseñanza Aprendizaje</rdfs:label>
+        <rdfs:label xml:lang="en">Teaching Learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#KnowledgeArea -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#KnowledgeArea">
+        <rdfs:comment xml:lang="es">Orientada al desarrollo de las competencias de especialidad de una carrera. Cada área incluye las asignaturas que permiten lograr las competencias profesionales.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Oriented to the development of the specialty competences of a career. Each area includes the subjects that allow the achievement of professional competencies.</rdfs:comment>
+        <rdfs:label xml:lang="en">Knowledge Area</rdfs:label>
+        <rdfs:label xml:lang="es">Áreas de especialidad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#LearningOutcome -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#LearningOutcome">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/aipo#partOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/aipo#Competences"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:comment xml:lang="en">Learning outcomes are statements of what the student is expected to be able to do, understand and / or be able to demonstrate once a learning process is completed. These results can be subject and for each syllable learning unit</rdfs:comment>
+        <rdfs:comment xml:lang="es">Los resultados de aprendizaje son enunciados  de lo que se espera que el estudiante sea capaz de hacer, comprender y / o sea capaz de demostrar una vez terminado un proceso de aprendizaje. Estos resultados pueden ser de asignatura y por cada unidad de aprendizaje del sílabo</rdfs:comment>
+        <rdfs:label xml:lang="en">Learning Outcome</rdfs:label>
+        <rdfs:label xml:lang="es">Resultado de aprendizaje</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#LinkedEnviroment -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#LinkedEnviroment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="es">Eje estrategico que contiene los ejes extensión cultural y proyección social</rdfs:comment>
+        <rdfs:comment xml:lang="en">Strategic axis that contains the cultural extension and social projection axes</rdfs:comment>
+        <rdfs:label xml:lang="en">Linked with the enviroment</rdfs:label>
+        <rdfs:label xml:lang="es">Vinculación con el medio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Nationality -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Nationality">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+        <rdfs:comment xml:lang="es">Condición que reconoce que una persona pertenece a un estado o nación.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Condition that recognizes that a person belongs to a state or nation.</rdfs:comment>
+        <rdfs:label xml:lang="es">Nacionalidad</rdfs:label>
+        <rdfs:label xml:lang="en">Nacionality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Person -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Person">
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#School"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:comment xml:lang="en">A human being</rdfs:comment>
+        <rdfs:comment xml:lang="es">Un ser humano</rdfs:comment>
+        <rdfs:label xml:lang="en">Person</rdfs:label>
+        <rdfs:label xml:lang="es">Persona</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Professor -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Professor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#AcademicStaff"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#UndergraduateStudent"/>
+        <rdfs:comment xml:lang="es">Profesional encargado de impartir una asignatura. Su papel es fundamental. El profesor debería ser un cristiano comprometido con el desarrollo espiritual, intelectual, físico y social del estudiante.</rdfs:comment>
+        <rdfs:label xml:lang="es">Docente</rdfs:label>
+        <rdfs:label xml:lang="en">Professor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#ProgramOfStudy -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#ProgramOfStudy">
+        <rdfs:comment xml:lang="es">Es la oferta educativa que después de un proceso de diez ciclos académicos aprobados otorga, a nombre de la nación, un grado académico y un título porfesional respecto a una especialidad requerida en el mercado laboral</rdfs:comment>
+        <rdfs:comment xml:lang="en">It is the educational offer that after a process of ten approved academic cycles grants, on behalf of the nation, an academic degree and a professional title regarding a specialty required in the labor market</rdfs:comment>
+        <rdfs:label xml:lang="en">Program of study</rdfs:label>
+        <rdfs:label xml:lang="es">Programa de estudios</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Research -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Research">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="es">El eje de investigación formativa, inherente al trabajo académico; desarrolla capacidades para elaborar y publicar trabajos de investigación que coducen la obtención de grados y títulos profesionales, monitoreadosn por la Dirección de Investigaciones de la Facultad.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The formative research axis, inherent to academic work; develops capacities to elaborate and publish research works that lead to the obtaining of degrees and professional titles, monitored by the Research Directorate of the Faculty.</rdfs:comment>
+        <rdfs:label xml:lang="es">Investigación</rdfs:label>
+        <rdfs:label xml:lang="en">Research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Researcher -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Researcher">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#AcademicStaff"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#UndergraduateStudent"/>
+        <rdfs:comment xml:lang="es">Docente encargado de realizar publicaciones científicas en la institución.</rdfs:comment>
+        <rdfs:label xml:lang="es">Investigador</rdfs:label>
+        <rdfs:label xml:lang="en">Researcher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Resourse -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Resourse">
+        <rdfs:label xml:lang="en">Learning Resourse</rdfs:label>
+        <rdfs:label xml:lang="es">Recursos de aprendizaje (material bibliográfico)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#School -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#School">
+        <rdfs:subClassOf rdf:resource="http://schema.org/EducationalOrganization"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/aipo#University"/>
+        <rdfs:comment xml:lang="es">Es un estamento que ofrece programas académicos respecto a una especialidad mediante una escuela académica</rdfs:comment>
+        <rdfs:comment xml:lang="en">It is an establishment that offers academic programs regarding a specialty through an academic school</rdfs:comment>
+        <rdfs:label xml:lang="es">Facultad</rdfs:label>
+        <rdfs:label xml:lang="en">School</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Semester -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Semester">
+        <rdfs:comment xml:lang="en">17-week academic period in Peru.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Periodo académico de 17 semanas de duración, en el Perú.</rdfs:comment>
+        <rdfs:label xml:lang="es">Ciclo</rdfs:label>
+        <rdfs:label xml:lang="en">Semester</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#SocialProjection -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#SocialProjection">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/aipo#partOf"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/aipo#LinkedEnviroment"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#StrategicAxis"/>
+        <rdfs:comment xml:lang="es">Estratégico relacionado al servicio mediante  actividades permanentes dirigidos a la comunidad y programados por  la facultad o carrera profesional.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Strategic related to the service through permanent activities directed to the community and programmed by the faculty or professional career.</rdfs:comment>
+        <rdfs:label xml:lang="es">Proyección Social</rdfs:label>
+        <rdfs:label xml:lang="en">Social Projection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#SpecialtyArea -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#SpecialtyArea">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#KnowledgeArea"/>
+        <rdfs:comment xml:lang="es">Orientada al desarrollo de competencias específicas relacionadas con una disciplina o carrera profesional. En este caso se trata del logro de saberes referidos a la carrera de Administración y Negocios Internacionales y sus disciplinas esenciales</rdfs:comment>
+        <rdfs:comment xml:lang="en">Oriented to the development of specific competences related to a discipline or professional career. In this case, it is about the achievement of knowledge related to the career of Administration and International Business and its essential disciplines</rdfs:comment>
+        <rdfs:label xml:lang="en">Specialty Area</rdfs:label>
+        <rdfs:label xml:lang="es">Área específica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Specific -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Specific">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Competences"/>
+        <rdfs:comment xml:lang="es">Las competencias específicas son aquellos saberes que el estudiante adquiere y/o desarrolla en función a la carrera que eligieron. Las competencias específicas están relacionadas con las áreas de especialidad o funciones clave de la carrera profesional.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The specific competences are those knowledge that the student acquires and / or develops according to the career they chose. Specific competencies are related to specialty areas or key career functions.</rdfs:comment>
+        <rdfs:label xml:lang="es">Específico</rdfs:label>
+        <rdfs:label xml:lang="en">Specific</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#StrategicAxis -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#StrategicAxis">
+        <rdfs:comment xml:lang="es">Los ejes estratégicos, son las líneas o rutas básicas que tiene una institución para el desarrollo de su plan académico. Estos ejes proporcionan orden y claridad mediante planes específicos y medibles.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The strategic axes are the basic lines or routes that an institution has for the development of its academic plan. These axes provide order and clarity through specific and measurable plans.</rdfs:comment>
+        <rdfs:label xml:lang="es">Eje estratégico</rdfs:label>
+        <rdfs:label xml:lang="en">Strategic Axis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Student -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Student">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Person"/>
+        <rdfs:comment xml:lang="en">A person formally committed to learning, enrolled. As a child of God, the college student is the object of educational endeavor as a whole and, as such, should be loved and accepted</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una persona comprometida formalmente con el aprendizaje, matriculado. Como hijo de Dios, el estudiante universitario es el objeto del esfuerzo educativo como un todo y, como tal, debería ser amado y aceptado</rdfs:comment>
+        <rdfs:label xml:lang="es">Estudiante</rdfs:label>
+        <rdfs:label xml:lang="en">Student</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#SummerSemester -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#SummerSemester">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Semester"/>
+        <rdfs:comment xml:lang="en">8-week academic period, from January to March. This cycle is generally aimed at new entrants to take basic courses such as: Mathematics and Language</rdfs:comment>
+        <rdfs:comment xml:lang="es">Periodo académico de 8 semanas, de enero a marzo. Este ciclo generalmente esta dirigido a los nuevos ingresantes para llevar cursos básicos como: Matemáticas y Lenguaje</rdfs:comment>
+        <rdfs:label xml:lang="es">Ciclo de verano /Ciclo Cero</rdfs:label>
+        <rdfs:label xml:lang="en">Summer Semester</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Syllabus -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Syllabus">
+        <rdfs:comment xml:lang="en">Document that contains information on a subject through which the learning results and evidences that decalculate in the competencies of the professional profile are achieved</rdfs:comment>
+        <rdfs:comment xml:lang="es">Documento que contiene información de una asignatura mediante la cual se logra los resultados y evidencias de aprendizaje que decalran en las competencias del perfil profesional. El sílabo de un curso genérico es elaborado por su respectivo departamento académico, si es un un curso de especialidad o especifico, éstees elaborado por la Escuela Académica.</rdfs:comment>
+        <rdfs:label xml:lang="en">Syllabus</rdfs:label>
+        <rdfs:label xml:lang="es">Sílabo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#TeachingMethod -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#TeachingMethod">
+        <rdfs:comment xml:lang="es">Conjunto de técnicas y actividades que un profesor utiliza con el fin de lograr uno o varios objetivos educativos.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Set of techniques and activities that a teacher uses in order to achieve one or more educational objectives.</rdfs:comment>
+        <rdfs:label xml:lang="es">Metódo de enseñanza</rdfs:label>
+        <rdfs:label xml:lang="en">Teaching Method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#TechnicalStaff -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#TechnicalStaff">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/aipo#Employee"/>
+        <rdfs:comment xml:lang="es">Personal encargado del área tecnología de la Escuela de Administración</rdfs:comment>
+        <rdfs:comment xml:lang="en">Personnel in charge of the technology area of the School of Administration</rdfs:comment>
+        <rdfs:label xml:lang="es">Personal técnico</rdfs:label>
+        <rdfs:label xml:lang="en">Technical Staff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Term -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Term">
+        <rdfs:comment xml:lang="en">Period that contains semesters, which can be developed in sixteen (16) weeks</rdfs:comment>
+        <rdfs:comment xml:lang="es">Periodo que contiene semestres, que pueden ser desarrollado en dieciseis (16) semanas</rdfs:comment>
+        <rdfs:label xml:lang="es">Año de estudio</rdfs:label>
+        <rdfs:label xml:lang="en">Term</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#Topic -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#Topic">
+        <rdfs:comment xml:lang="es">Contenido teórico práctico  específico de una determinada asignatura.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Theoretical and practical content, specific to a certain subject.</rdfs:comment>
+        <rdfs:label xml:lang="es">Tema</rdfs:label>
+        <rdfs:label xml:lang="en">Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#UndergraduateStudent -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#UndergraduateStudent">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/aipo#Student"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/aipo#enrolledIn"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/aipo#BachelorDegree"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="es">Estudiante que aun no ha obtenido la licenciatura</rdfs:comment>
+        <rdfs:comment xml:lang="en">Student who has not yet obtained a bachelor&apos;s degree</rdfs:comment>
+        <rdfs:label xml:lang="es">Estudiante de Pregrado</rdfs:label>
+        <rdfs:label xml:lang="en">UndergraduateStudent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/aipo#University -->
+
+    <owl:Class rdf:about="https://w3id.org/aipo#University">
+        <rdfs:subClassOf rdf:resource="http://schema.org/EducationalOrganization"/>
+        <rdfs:comment xml:lang="en">A university is an institution of higher education made up of various faculties and that awards different academic degrees on behalf of the nation</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una universidad es una institución de enseñanza superior formada por diversas facultades y que otorga distintos grados académicos a nombre de la nación</rdfs:comment>
+        <rdfs:label xml:lang="es">Universidad</rdfs:label>
+        <rdfs:label xml:lang="en">University</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
