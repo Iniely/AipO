@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1617682793385" name="http://purl.org/aipo" uri="aipo-01.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1617682793385" name="https://w3id.org/aipo" uri="aipo-w3id.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618315375495" name="https://w3id.org/aipo" uri="aipo.owl"/>
     </group>
 </catalog>
