@@ -1,0 +1,4040 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "es", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schema.org", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/aipo/aipo", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://purl.org/dc/elements/1.1" ],
+    "iri" : "https://w3id.org/aipo/aipo",
+    "labels" : {
+      "en" : "Administration and International Bussiness Pensum's Ontology (AIPO)"
+    },
+    "comments" : {
+      "en" : "Ontology that describes the Pensum of the Administration and International Business career of the Universidad Peruana Unión",
+      "es" : "Ontología que describre el Pensum de la carrera de Administración y Negocios Internacionales de la Universidad Peruana Unión"
+    },
+    "other" : {
+      "rights" : [ {
+        "identifier" : "rights",
+        "language" : "es",
+        "value" : "GNU GPL v3",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "114",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "184",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "183",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "168",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "202",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "226",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "35",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "206",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "138",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "166",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/aipo/aipo#Semester",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Semester",
+      "en" : "Semester",
+      "es" : "Ciclo"
+    },
+    "subClasses" : [ "1" ],
+    "comment" : {
+      "en" : "17-week academic period in Peru.",
+      "es" : "Periodo académico de 17 semanas de duración, en el Perú."
+    },
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Syllabus",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Syllabus",
+      "en" : "Syllabus",
+      "es" : "Sílabo"
+    },
+    "comment" : {
+      "en" : "Document that contains information on a subject through which the learning results and evidences that decalculate in the competencies of the professional profile are achieved",
+      "es" : "Documento que contiene información de una asignatura mediante la cual se logra los resultados y evidencias de aprendizaje que decalran en las competencias del perfil profesional. El sílabo de un curso genérico es elaborado por su respectivo departamento académico, si es un un curso de especialidad o especifico, éstees elaborado por la Escuela Académica."
+    },
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#EvaluationMethod",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EvaluationMethod",
+      "en" : "Evaluation Method",
+      "es" : "Metodología de evaluación"
+    },
+    "comment" : {
+      "en" : "Methodology used by the teacher to measure the student's knowledge",
+      "es" : "Metodología utilizada por el docente para medir los conocimientos del estudiante"
+    },
+    "id" : "33"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Nationality",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Nationality",
+      "en" : "Nacionality",
+      "es" : "Nacionalidad"
+    },
+    "comment" : {
+      "en" : "Condition that recognizes that a person belongs to a state or nation.",
+      "es" : "Condición que reconoce que una persona pertenece a un estado o nación."
+    },
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#University",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "University",
+      "en" : "University",
+      "es" : "Universidad"
+    },
+    "comment" : {
+      "en" : "A university is an institution of higher education made up of various faculties and that awards different academic degrees on behalf of the nation",
+      "es" : "Una universidad es una institución de enseñanza superior formada por diversas facultades y que otorga distintos grados académicos a nombre de la nación"
+    },
+    "id" : "8",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#TechnicalStaff",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TechnicalStaff",
+      "en" : "Technical Staff",
+      "es" : "Personal técnico"
+    },
+    "comment" : {
+      "en" : "Personnel in charge of the technology area of the School of Administration",
+      "es" : "Personal encargado del área tecnología de la Escuela de Administración"
+    },
+    "id" : "92",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Research",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Research",
+      "en" : "Research",
+      "es" : "Investigación"
+    },
+    "comment" : {
+      "en" : "The formative research axis, inherent to academic work; develops capacities to elaborate and publish research works that lead to the obtaining of degrees and professional titles, monitored by the Research Directorate of the Faculty.",
+      "es" : "El eje de investigación formativa, inherente al trabajo académico; desarrolla capacidades para elaborar y publicar trabajos de investigación que coducen la obtención de grados y títulos profesionales, monitoreadosn por la Dirección de Investigaciones de la Facultad."
+    },
+    "id" : "72",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Resource",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource",
+      "en" : "Learning Resourse",
+      "es" : "Recursos de aprendizaje (material bibliográfico)"
+    },
+    "id" : "24"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Specific",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Specific",
+      "en" : "Specific",
+      "es" : "Específico"
+    },
+    "comment" : {
+      "en" : "The specific competences are those knowledge that the student acquires and / or develops according to the career they chose. Specific competencies are related to specialty areas or key career functions.",
+      "es" : "Las competencias específicas son aquellos saberes que el estudiante adquiere y/o desarrolla en función a la carrera que eligieron. Las competencias específicas están relacionadas con las áreas de especialidad o funciones clave de la carrera profesional."
+    },
+    "id" : "101",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#SocialProjection",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SocialProjection",
+      "en" : "Social Projection",
+      "es" : "Proyección Social"
+    },
+    "comment" : {
+      "en" : "Strategic related to the service through permanent activities directed to the community and programmed by the faculty or professional career.",
+      "es" : "Estratégico relacionado al servicio mediante  actividades permanentes dirigidos a la comunidad y programados por  la facultad o carrera profesional."
+    },
+    "id" : "76",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#GraduationProfile",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GraduationProfile",
+      "en" : "Graduation Profile",
+      "es" : "Perfil de egreso"
+    },
+    "comment" : {
+      "en" : "The graduate profile is defined as the set of competencies (capabilities, skills, knowledge, and attitudes) that allow the person to be legally accredited by an educational institution, so that he can perform in his career and be recognized by society as a professional.",
+      "es" : "El perfil de egreso se define como el conjunto de competencias (capacidades, habilidades, conocimientos, y actitudes) permiten que la persiba sea acreditada legalmente por una institución educativa, a fin de que pueda desempeñarse en su carrera y ser reconocido por la sociedad como un profesional."
+    },
+    "id" : "119"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Curriculum",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Curriculum",
+      "en" : "Curriculum",
+      "es" : "Plan curricular"
+    },
+    "comment" : {
+      "en" : "Framework document containing educational objectives, graduation profile, learning outcomes, curriculum, assessment system",
+      "es" : "Documento marco que contiene objetivos educacionales, perfil de egreso, resultados de aprendizaje, plan de estudios, sistema de evauación"
+    },
+    "id" : "122"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Generic",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Generic",
+      "en" : "Generic",
+      "es" : "Genérico"
+    },
+    "comment" : {
+      "en" : "General competences are knowledge developed common to students of any career. These generic competences can be: instrumental, interpersonal and intrapersonal.",
+      "es" : "Las competencias generales son saberes desarrollados común a estudiantes de cualquier carrera. Éstas competencias genéricas puesden ser: instrumentales, interpersonales e intrapersonales."
+    },
+    "id" : "104",
+    "superClasses" : [ "102" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#School",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "School",
+      "en" : "School",
+      "es" : "Facultad"
+    },
+    "comment" : {
+      "en" : "It is an establishment that offers academic programs regarding a specialty through an academic school",
+      "es" : "Es un estamento que ofrece programas académicos respecto a una especialidad mediante una escuela académica"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://schema.org/Organization",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Organization",
+      "en" : "Organization",
+      "es" : "Organización"
+    },
+    "subClasses" : [ "4" ],
+    "comment" : {
+      "es" : "An organization is an association of people who interact with each other and use resources of various kinds in order to achieve certain objectives or goals."
+    },
+    "attributes" : [ "external" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#ProgramOfStudy",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProgramOfStudy",
+      "en" : "Program of study",
+      "es" : "Programa de estudios"
+    },
+    "subClasses" : [ "141", "142" ],
+    "comment" : {
+      "en" : "It is the educational offer that after a process of ten approved academic cycles grants, on behalf of the nation, an academic degree and a professional title regarding a specialty required in the labor market",
+      "es" : "Es la oferta educativa que después de un proceso de diez ciclos académicos aprobados otorga, a nombre de la nación, un grado académico y un título porfesional respecto a una especialidad requerida en el mercado laboral"
+    },
+    "id" : "30"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#ElectiveCourse",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectiveCourse",
+      "en" : "Elective course",
+      "es" : "Asignatura/Curso electivo"
+    },
+    "comment" : {
+      "en" : "Course that the student chooses voluntarily in order to meet a particular requirement and orient their training to some specialty",
+      "es" : "Curso que el estudiante elige por voluntad a fin de cumplir con un requisito en particular y orientar su formación a algunas especialidad"
+    },
+    "id" : "67",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Term",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Term",
+      "en" : "Term",
+      "es" : "Año de estudio"
+    },
+    "comment" : {
+      "en" : "Period that contains semesters, which can be developed in sixteen (16) weeks",
+      "es" : "Periodo que contiene semestres, que pueden ser desarrollado en dieciseis (16) semanas"
+    },
+    "id" : "147"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#IntegralFormation",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IntegralFormation",
+      "en" : "Teaching Learning",
+      "es" : "Enseñanza Aprendizaje"
+    },
+    "subClasses" : [ "149" ],
+    "comment" : {
+      "en" : "Strategic axis that refers to the teaching and learning process of professional careers through curricular design and evaluation activities, student mobility, leveling, reinforcement and pre-professional practices.",
+      "es" : "Eje estratégico que hace referencia al proceso de enseñanza y aprendizaje de las carreras profesionales a través de actividades de diseño y evaluación curricular, movilidad estudiantil, nivelación, reforzamienro y prácticas pre prorfesioanles."
+    },
+    "id" : "54",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Degree",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Degree",
+      "es" : "Título profesional"
+    },
+    "comment" : {
+      "en" : "To obtain the Degree, it is required to have a bachelor's degree and the support of a thesis or work of professional sufficiency",
+      "undefined" : "Para su obtención requiere poseer el grado de bachiller y la sustentación de una tesis o trabajo de suficiencia profesional"
+    },
+    "id" : "142",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#TeachingMethod",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TeachingMethod",
+      "en" : "Teaching Method",
+      "es" : "Metódo de enseñanza"
+    },
+    "comment" : {
+      "en" : "Set of techniques and activities that a teacher uses in order to achieve one or more educational objectives.",
+      "es" : "Conjunto de técnicas y actividades que un profesor utiliza con el fin de lograr uno o varios objetivos educativos."
+    },
+    "id" : "124"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#BachelorDegree",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://drive.google.com/file/d/19MI3BAUe_493d8tolRqTAZZwt64NqtEe/view",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BachelorDegree",
+      "en" : "Bachelor degree",
+      "es" : "Grado académico de bachiller"
+    },
+    "comment" : {
+      "en" : "Academic degree awarded by a university to a person who has completed undergraduate studies and supported his research article.",
+      "es" : "Grado académico otorgado por una universidad a una persona que ha completado los estudios de pregrado y sustenado su artículo de investigación."
+    },
+    "id" : "141",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Employee",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Employee",
+      "en" : "Employee",
+      "es" : "Empleado/Trabajdor"
+    },
+    "subClasses" : [ "92", "99", "27" ],
+    "comment" : {
+      "en" : "Person who works in an institution",
+      "es" : "Persona que labora en una institución"
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "155",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Competences",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Competences",
+      "en" : "Competences",
+      "es" : "Competencias"
+    },
+    "subClasses" : [ "101", "104" ],
+    "comment" : {
+      "en" : "A general statement detailing the desired knowledge and skills of the student graduating from the course or program of study.",
+      "es" : "Una declaración general que detalla los conocimientos y habilidades deseados del estudiante que egresa del curso o programa de estudios."
+    },
+    "id" : "102"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#AcademicStaff",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AcademicStaff",
+      "en" : "Academic Staff",
+      "es" : "Personal Académico"
+    },
+    "subClasses" : [ "59", "61" ],
+    "comment" : {
+      "en" : "Personnel in charge of the academic area of an Educational Institution",
+      "es" : "Personal encargado del área académica de una Institución Educativa"
+    },
+    "id" : "27",
+    "superClasses" : [ "10" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "68", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "50"
+  }, {
+    "instances" : 0,
+    "union" : [ "68", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "99", "59" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "184"
+  }, {
+    "instances" : 0,
+    "union" : [ "68", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "183"
+  }, {
+    "instances" : 0,
+    "union" : [ "59", "27" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "113"
+  }, {
+    "instances" : 0,
+    "union" : [ "68", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "168"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Departament",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Departament",
+      "en" : "Departament",
+      "es" : "Carrera Profesional/Escuela Profesional"
+    },
+    "comment" : {
+      "en" : "Group of studies, generally university, that qualify for the exercise of a profession",
+      "es" : "Conjunto de estudios, generalmente universitarios, que habilitan para el ejercicio de una profesión"
+    },
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "instances" : 0,
+    "intersection" : [ "68", "15" ],
+    "attributes" : [ "intersection", "anonymous" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "162",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "208",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#GenericArea",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GenericArea",
+      "en" : "Generic Area",
+      "es" : "Área genérica"
+    },
+    "comment" : {
+      "en" : "Oriented to train students in the domains of basic skills and knowledge that support more complex and specialized learning.",
+      "es" : "Orientada a capacitar a los estudiantes en los dominios de las capacidades y conocimientos básicos que son el soporte de aprendizajes más complejos y especializados."
+    },
+    "id" : "63",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#CulturalExtension",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalExtension",
+      "en" : "Cultural Extension",
+      "es" : "Extensión Cultural"
+    },
+    "comment" : {
+      "en" : "Strategic axis related to service. Their activities are permanent and are manifested through community service actions or special training programs that the faculty or professional career programs related to the achievement of general and specific commitments.",
+      "es" : "Eje estratégico relacionado al servicio. Sus actividades son permanentes y se manifiestan mediante acciones de servicio a la comunidad o programas especiales de capacitación que la facultad o carrera profesional programe relacionadas a l logro de cometencias generales y específicas"
+    },
+    "id" : "89",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#KnowledgeArea",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KnowledgeArea",
+      "en" : "Knowledge Area",
+      "es" : "Áreas de especialidad"
+    },
+    "subClasses" : [ "63", "65" ],
+    "comment" : {
+      "en" : "Oriented to the development of the specialty competences of a career. Each area includes the subjects that allow the achievement of professional competencies.",
+      "es" : "Orientada al desarrollo de las competencias de especialidad de una carrera. Cada área incluye las asignaturas que permiten lograr las competencias profesionales."
+    },
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "225",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#duration",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "duration"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "32",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "226",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "178",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "128",
+    "label" : {
+      "IRI-based" : "decimal"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Course",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "Un curso puede ser: Génerico, Específico y de Especialidad",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Course",
+      "en" : "Course",
+      "es" : "Curso/Asignatura"
+    },
+    "subClasses" : [ "67", "70" ],
+    "comment" : {
+      "en" : "Each of the subjects that are part of a study plan",
+      "es" : "Cada una de las materias que forman parte de un plan de estudio"
+    },
+    "id" : "68"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#StrategicAxis",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StrategicAxis",
+      "en" : "Strategic Axis",
+      "es" : "Eje estratégico"
+    },
+    "subClasses" : [ "72", "76", "89", "52", "54" ],
+    "comment" : {
+      "en" : "The strategic axes are the basic lines or routes that an institution has for the development of its academic plan. These axes provide order and clarity through specific and measurable plans.",
+      "es" : "Los ejes estratégicos, son las líneas o rutas básicas que tiene una institución para el desarrollo de su plan académico. Estos ejes proporcionan orden y claridad mediante planes específicos y medibles."
+    },
+    "id" : "48"
+  }, {
+    "instances" : 0,
+    "union" : [ "68", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#short",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "159",
+    "label" : {
+      "IRI-based" : "short"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "190",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "118",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "218",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "228",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Topic",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Topic",
+      "en" : "Topic",
+      "es" : "Tema"
+    },
+    "comment" : {
+      "en" : "Theoretical and practical content, specific to a certain subject.",
+      "es" : "Contenido teórico práctico  específico de una determinada asignatura."
+    },
+    "id" : "21"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "96",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "35",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "236",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#LinkedEnviroment",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LinkedEnviroment",
+      "en" : "Linked with the enviroment",
+      "es" : "Vinculación con el medio"
+    },
+    "comment" : {
+      "en" : "Strategic axis that contains the cultural extension and social projection axes",
+      "es" : "Eje estrategico que contiene los ejes extensión cultural y proyección social"
+    },
+    "id" : "52",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://schema.org/EducationalOrganization",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://schema.org/EducationalOrganization",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "EducationalOrganization",
+      "en" : "Educational organization",
+      "es" : "Indtitución Educativa"
+    },
+    "subClasses" : [ "3", "6", "8" ],
+    "comment" : {
+      "en" : "Institution in charge of providing educational services authorized by the state to provide study programs leading to a degree and professional title.",
+      "es" : "Institución encargada de impartir servicios educativos autorizada por el estado para brindar programas de estudios que condiucen a un grado y título profesional."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "136" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#SummerSemester",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SummerSemester",
+      "en" : "Summer Semester",
+      "es" : "Ciclo de verano /Ciclo Cero"
+    },
+    "comment" : {
+      "en" : "8-week academic period, from January to March. This cycle is generally aimed at new entrants to take basic courses such as: Mathematics and Language",
+      "es" : "Periodo académico de 8 semanas, de enero a marzo. Este ciclo generalmente esta dirigido a los nuevos ingresantes para llevar cursos básicos como: Matemáticas y Lenguaje"
+    },
+    "id" : "1",
+    "superClasses" : [ "0" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#UndergraduateStudent",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UndergraduateStudent",
+      "en" : "UndergraduateStudent",
+      "es" : "Estudiante de Pregrado"
+    },
+    "intersection" : [ "13" ],
+    "comment" : {
+      "en" : "Student who has not yet obtained a bachelor's degree",
+      "es" : "Estudiante que aun no ha obtenido la licenciatura"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "238",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "68", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "232",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "138",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "212",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#short",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "short"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#LearningOutcome",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LearningOutcome",
+      "en" : "Learning Outcome",
+      "es" : "Resultado de aprendizaje"
+    },
+    "comment" : {
+      "en" : "Learning outcomes are statements of what the student is expected to be able to do, understand and / or be able to demonstrate once a learning process is completed. These results can be subject and for each syllable learning unit",
+      "es" : "Los resultados de aprendizaje son enunciados  de lo que se espera que el estudiante sea capaz de hacer, comprender y / o sea capaz de demostrar una vez terminado un proceso de aprendizaje. Estos resultados pueden ser de asignatura y por cada unidad de aprendizaje del sílabo"
+    },
+    "id" : "106"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Researcher",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Researcher",
+      "en" : "Researcher",
+      "es" : "Investigador"
+    },
+    "comment" : {
+      "es" : "Docente encargado de realizar publicaciones científicas en la institución."
+    },
+    "id" : "61",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Person",
+    "equivalent" : [ "202" ],
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person",
+      "es" : "Persona"
+    },
+    "subClasses" : [ "10", "13" ],
+    "comment" : {
+      "en" : "A human being",
+      "es" : "Un ser humano"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "230",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "68", "15" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "144",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "140",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Professor",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Professor",
+      "en" : "Professor",
+      "es" : "Docente"
+    },
+    "comment" : {
+      "es" : "Profesional encargado de impartir una asignatura. Su papel es fundamental. El profesor debería ser un cristiano comprometido con el desarrollo espiritual, intelectual, físico y social del estudiante."
+    },
+    "id" : "59",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#SpecialtyArea",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpecialtyArea",
+      "en" : "Specialty Area",
+      "es" : "Área específica"
+    },
+    "comment" : {
+      "en" : "Oriented to the development of specific competences related to a discipline or professional career. In this case, it is about the achievement of knowledge related to the career of Administration and International Business and its essential disciplines",
+      "es" : "Orientada al desarrollo de competencias específicas relacionadas con una disciplina o carrera profesional. En este caso se trata del logro de saberes referidos a la carrera de Administración y Negocios Internacionales y sus disciplinas esenciales"
+    },
+    "id" : "65",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#Student",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Student",
+      "en" : "Student",
+      "es" : "Estudiante"
+    },
+    "comment" : {
+      "en" : "A person formally committed to learning, enrolled. As a child of God, the college student is the object of educational endeavor as a whole and, as such, should be loved and accepted",
+      "es" : "Una persona comprometida formalmente con el aprendizaje, matriculado. Como hijo de Dios, el estudiante universitario es el objeto del esfuerzo educativo como un todo y, como tal, debería ser amado y aceptado"
+    },
+    "id" : "13",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "152",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "254",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "153",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "121",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "116",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "222",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "220",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#CoreCourse",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CoreCourse",
+      "en" : "Core course",
+      "es" : "Asignatura/Curso obligatorio"
+    },
+    "comment" : {
+      "en" : "Courses that all students must complete before they can move to the next level / semester in their education.",
+      "es" : "Cursos que todos los estudiantes deben completar antes de que puedan pasar al siguiente nivel/Ciclo en su educación."
+    },
+    "id" : "70",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#CompetenceIF",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompetenceIF",
+      "es" : "Competencias eje Enseñanza aprendizaje"
+    },
+    "id" : "149",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#AdministrativeStaff",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AdministrativeStaff",
+      "en" : "Administrative Staff",
+      "es" : "Personal Administrativo"
+    },
+    "comment" : {
+      "en" : "Administrative staff of an organization",
+      "es" : "Personal administrativo de una organizacion"
+    },
+    "id" : "99",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Group",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Group",
+      "en" : "Foaf Group"
+    },
+    "subClasses" : [ "18" ],
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "109",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "210",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "207",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "117",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "169",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "174",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "175",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "177",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "179",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "180",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "189",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "191",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "192",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "193",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "171",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "196",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "199",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "200",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "204",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "205",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "211",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "213",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "219",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "221",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "223",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "227",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "231",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "237",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "215",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "216",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "239",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "244",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "245",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "247",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "224",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "257",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "260",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "107",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "265",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "266",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "268",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "269",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "271",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "2"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "range" : "11",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#practicalHours",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "practicalHours",
+      "en" : "practical hours",
+      "es" : "horas prácticas"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Hours dedicated to teaching the subject practice",
+      "es" : "Horas dedicadas a impartir la práctica de la asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "14"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#topicDetail",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "topicDetail",
+      "en" : "topic description",
+      "es" : "descripción del tema"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/title",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "title",
+      "en" : "resourse name",
+      "es" : "nombre del recurso"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#memberOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "memberOf",
+      "en" : "member of",
+      "es" : "miembro de"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "27",
+    "comment" : {
+      "en" : "An academic staff member of a faculty",
+      "es" : "Un personal académico es miembro de una o varias facultades"
+    },
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasDegree",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasDegree",
+      "en" : "has degree",
+      "es" : "tiene grado"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "11",
+    "comment" : {
+      "en" : "A person has one or more academic degrees",
+      "es" : "Una persona tiene uno o varios grados académicos"
+    },
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#evaluationInfo",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "evaluationInfo",
+      "en" : "evaluation info",
+      "es" : "informe de evaluación"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Information related to the evaluation of a course",
+      "es" : "Información relacionada a la evaluacion de una asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "35",
+    "subproperty" : [ "36", "37", "38", "39" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#label",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "label"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#personID",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "personID",
+      "en" : "person Id",
+      "es" : "DNI"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "Number of a person's ID",
+      "es" : "Número del documento de identidad de una persona"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#room",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "room",
+      "en" : "classroom",
+      "es" : "aula"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "Name of the classroom where a subject is given",
+      "es" : "Nombre del aula dónde se dicta una asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#axisDetail",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "axisDetail",
+      "en" : "strategic axis's description",
+      "es" : "descripción del eje estratégico"
+    },
+    "domain" : "48",
+    "comment" : {
+      "en" : "Description corresponding to strategic axis",
+      "es" : "Descripción correspondiente a eje estratégico"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#taughtIn",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "taughtIn",
+      "en" : "taught in",
+      "es" : "enseñado en"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "A topic is taught in one or more courses.",
+      "es" : "Un tema es enseñado en uno o varios cursos."
+    },
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "range" : "48",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "48",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#kaCompetencesDetail",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "kaCompetencesDetail",
+      "en" : "knowledge area detail",
+      "es" : "detalle de las áreas de conocimiento"
+    },
+    "domain" : "56",
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "range" : "27",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "27",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "56",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "56",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "68",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "68",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "range" : "48",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/publisher",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "publisher",
+      "en" : "publisher",
+      "es" : "editor"
+    },
+    "domain" : "24",
+    "comment" : {
+      "en" : "Company that publishes and prepares a book, responsible for making the resource available",
+      "es" : "Compañía que que publica y prepara libro, responsable de que el recurso esté disponible"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "73"
+  }, {
+    "range" : "48",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#affiliatedWith",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "affiliatedWith",
+      "en" : "affiliated With",
+      "es" : "afiliado con"
+    },
+    "domain" : "35",
+    "subproperty" : [ "77", "78", "79", "80", "81", "29", "82", "26", "83", "84", "85", "86", "87" ],
+    "comment" : {
+      "en" : "Superproperty of some object properties that represents any type of affiliation relationship between the following classes: Educational Organization, Person, Curriculum, Course",
+      "es" : "Superpropiedad de algunas propiedades de objeto que representa cualquier tipo de relación de afiliación entre las siguientes clases: Organización Educativa, Persona, Programa de Estudio, Asignatura"
+    },
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "range" : "48",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#institutional",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "institutional",
+      "en" : "institutional acreditation",
+      "es" : "acreditación institucional"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "SUNEDU sets standards and evaluates the performance of institutions of higher education institutions as a whole.",
+      "es" : "La SUNEDU establece estándares y evalúa el desempeño de las instituciones, de educación superior,  en su conjunto."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#feedService",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "feedService",
+      "en" : "feed service",
+      "es" : "servicio de alimentación"
+    },
+    "domain" : "8",
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#workingCondition",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "workingCondition",
+      "en" : "working condition",
+      "es" : "condición laboral"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "A worker's employment status may be: Missionary, Part-time Contract, full-time contract, or employee",
+      "es" : "La condición laboral de un trabajador puede ser: Misionero, Contrado a tiempo parcial, contratado a tiempo completo o empleado"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#enrolledIn",
+    "inverse" : "78",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "enrolledIn",
+      "en" : "enrolled in",
+      "es" : "inscrito en"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "13",
+    "comment" : {
+      "en" : "A student is enrolled in a program of study",
+      "es" : "Un estudiante esta inscrito en un programa de estudios"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "85"
+  }, {
+    "range" : "10",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "10",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "102",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "102",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#acquiredInCourse",
+    "inverse" : "107",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "acquiredInCourse",
+      "en" : "acquiredInCourse",
+      "es" : "adquirido en una asignatura"
+    },
+    "domain" : "106",
+    "comment" : {
+      "en" : "A learning outcome  is acquired in a course",
+      "es" : "Un resultado de aprendizaje es adquirido en un curso"
+    },
+    "attributes" : [ "object" ],
+    "id" : "105"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#syllabusModality",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "109",
+    "label" : {
+      "IRI-based" : "syllabusModality",
+      "en" : "syllabus modality",
+      "es" : "modalidad del sílabo"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "The syllable modality can be for a course that is taught in person, blended or remotely",
+      "es" : "La modalidad del sílabo puede ser para un curso que se dicte de manera presencial, semipresencial o a distancia"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasEmployee",
+    "inverse" : "110",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasEmployee",
+      "en" : "has employee",
+      "es" : "tiene empleado"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "An organization has one or more workers",
+      "es" : "Una organización tiene uno o varios trabajadores"
+    },
+    "attributes" : [ "object" ],
+    "id" : "82"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasInstructor",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "hasInstructor",
+      "en" : "has instructor",
+      "es" : "tiene instructor"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "A course has an instructor who is a teacher",
+      "es" : "Una asignatura tiene un instructor que es un docente"
+    },
+    "attributes" : [ "object" ],
+    "id" : "111"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasAssitant",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "hasAssitant",
+      "en" : "has Assistant",
+      "es" : "tiene docente adjunto"
+    },
+    "domain" : "15",
+    "comment" : {
+      "es" : "Una asignatura tiene docente adjunto"
+    },
+    "attributes" : [ "object" ],
+    "id" : "112"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#supervisorOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "supervisorOf",
+      "en" : "supervisor of",
+      "es" : "supervisor de"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "113",
+    "comment" : {
+      "en" : "A teacher is a supervisor of one or more courses",
+      "es" : "Un docente es supervisor de uno o varios cursos"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "116",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://schema.org/address",
+    "baseIri" : "http://schema.org",
+    "range" : "118",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://schema.org/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "address"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#minimunScoreRequired",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "minimunScoreRequired",
+      "en" : "minimun score required",
+      "es" : "nota mínima requerida"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "The minimum passing grade for a course is, 13 on the vigesimal scale",
+      "es" : "La nota  mínima aprobatoria para un curso es, 13 en la escala vigesimal"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#followsTM",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "followsTM",
+      "en" : "follows teaching method",
+      "es" : "sigue metodología de enseñanza"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Course has teaching method",
+      "es" : "Un curso tiene uno o varios metódos de enseñanza"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasNationality",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasNationality",
+      "en" : "has nationality",
+      "es" : "tiene nacionalidad"
+    },
+    "superproperty" : [ "126" ],
+    "domain" : "11",
+    "comment" : {
+      "en" : "A person has one or more nationalities",
+      "es" : "Una persona tiene una o varias nacionalidades"
+    },
+    "attributes" : [ "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#creditsECTS",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "128",
+    "label" : {
+      "IRI-based" : "creditsECTS",
+      "en" : "crédits",
+      "es" : "créditos"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "Credits that run a course",
+      "es" : "Créditos que corresponden a una asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#duration",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "130",
+    "label" : {
+      "IRI-based" : "duration",
+      "en" : "duration",
+      "es" : "duración"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "The duration of a program of study, semester, or course",
+      "es" : "El tiempo que dura un programa de estudio, un ciclo o un curso"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#universityAcreditation",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "universityAcreditation",
+      "en" : "university acreditation",
+      "es" : "acreditación universitaria"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "The accreditation and licensing process of the Universities in Peru is carried out by SUNEDU.",
+      "es" : "El proceso de acreditación y licenciamiento de las Universidades en el Perú, es llevado a cabo por la SUNEDU."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#name",
+    "equivalent" : [ "135" ],
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "name",
+      "en" : "name",
+      "es" : "nombre"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "First name of a person",
+      "es" : "El nombre de una persona"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "133"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#startDate",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "138",
+    "label" : {
+      "IRI-based" : "startDate",
+      "en" : "start date",
+      "es" : "fecha de inicio"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Start date of a cycle, curriculum, subject.",
+      "es" : "Fecha de inicio de un ciclo, programa de estudio, asignatura."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#officeHours",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "140",
+    "label" : {
+      "IRI-based" : "officeHours",
+      "en" : "office hours",
+      "es" : "horas en oficina"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "The schedule at which a teaching staff is in their office",
+      "es" : "El horario en las que un personal docente se encuentra en su ofina"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "139"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#attendsCourse",
+    "inverse" : "84",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "attendsCourse",
+      "en" : "attends course",
+      "es" : "asiste a una asignatura"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "13",
+    "comment" : {
+      "en" : "A student attends one or more subjects or courses",
+      "es" : "Un estudiante asiste a una o varias asignaturas o cursos"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#mobilePhone",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "144",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://schema.org/telephone",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mobilePhone",
+      "en" : "mobile phone",
+      "es" : "celular"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "A person's phone number",
+      "es" : "Número telefónico de una persona"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "143"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#theoricalHours",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "146",
+    "label" : {
+      "IRI-based" : "theoricalHours",
+      "en" : "theoreatical hours",
+      "es" : "horas teóricas"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Hours dedicated to teach the theory of the subject",
+      "es" : "Horas dedicadas a impartir la teoría de la asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "145"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#followsEM",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "followsEM",
+      "en" : "follows evaluation method",
+      "es" : "tiene metodología de evaluación"
+    },
+    "domain" : "15",
+    "comment" : {
+      "es" : "Una asignatura tiene una o mas metodologías de evaluación"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#courseType",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "152",
+    "label" : {
+      "IRI-based" : "courseType",
+      "en" : "course type",
+      "es" : "tipo de asignatura"
+    },
+    "domain" : "151",
+    "comment" : {
+      "en" : "A course can be generic, specific or specialty",
+      "es" : "Una asignatura puede ser, genérica, específica o de especialidad"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/firstName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "153",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "firstName"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/language",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "language",
+      "en" : "resource language",
+      "es" : "idioma del recurso"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "154"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#minorDevelops",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "minorDevelops",
+      "en" : "minor develops",
+      "es" : "desarrolla menor"
+    },
+    "superproperty" : [ "157" ],
+    "domain" : "35",
+    "comment" : {
+      "en" : "Competition with a MINOR TO PARTIAL correspondence to the curriculum. The contribution of the Curriculum is less than 35%",
+      "es" : "Competencia con una correspondencia MENOR A LO PARCIAL al plan de estudio. La contribución del Plan de Estudio es menor al 35%"
+    },
+    "attributes" : [ "object" ],
+    "id" : "156"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#courseId",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "159",
+    "label" : {
+      "IRI-based" : "courseId",
+      "en" : "course Id",
+      "es" : "id de la asignatura"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "Course coding",
+      "es" : "Codificación de la asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "158"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#isLinked",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "isLinked",
+      "en" : "is linked",
+      "es" : "está vinculado"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "A subject is linked to a strategic axis",
+      "es" : "Una asignatura está vinculada a un eje estratégico"
+    },
+    "attributes" : [ "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#loDetail",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "loDetail",
+      "en" : "learning outcome detail",
+      "es" : "descripción de resultados de aprendizaje"
+    },
+    "domain" : "106",
+    "attributes" : [ "datatype" ],
+    "id" : "161"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasRegistered",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasRegistered",
+      "en" : "has registered",
+      "es" : "tiene regsitrado"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "30",
+    "comment" : {
+      "en" : "A program of study has one or more students",
+      "es" : "Un programa de estudio tiene uno o varios estudiantes"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "78"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#isExperienced",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "164",
+    "label" : {
+      "IRI-based" : "isExperienced",
+      "en" : "is experienced",
+      "es" : "tiene experiencia"
+    },
+    "domain" : "59",
+    "comment" : {
+      "en" : "Indicator if teaching staff have experience in their subject matter",
+      "es" : "Indicador si el personal docente tiene experencia en su materia"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "163"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#semesterInProgram",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "167",
+    "label" : {
+      "IRI-based" : "semesterInProgram",
+      "en" : "semester in program",
+      "es" : "semestre en curso"
+    },
+    "domain" : "166",
+    "comment" : {
+      "en" : "The semester in which a subject is taught",
+      "es" : "El semestre en la que se dicta una asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "165"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#instructorOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "168",
+    "label" : {
+      "IRI-based" : "instructorOf",
+      "en" : "instructor of",
+      "es" : "instructor de"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "59",
+    "comment" : {
+      "en" : "A teacher is an instructor of a course",
+      "es" : "Un docentes es instructor de una asignatura"
+    },
+    "attributes" : [ "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#surname",
+    "equivalent" : [ "171" ],
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "170",
+    "label" : {
+      "IRI-based" : "surname",
+      "en" : "surname",
+      "es" : "apellido"
+    },
+    "domain" : "11",
+    "comment" : {
+      "en" : "People's last name",
+      "es" : "El apellido de una persona"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "169"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasCompleted",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasCompleted",
+      "en" : "has completed",
+      "es" : "ha completado"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "13",
+    "comment" : {
+      "en" : "A student completed one or more courses",
+      "es" : "Un estudiante completó uno o varios cursos"
+    },
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#worksFor",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "worksFor",
+      "en" : "work for",
+      "es" : "trabaja para"
+    },
+    "domain" : "10",
+    "comment" : {
+      "en" : "An employee works for an organization",
+      "es" : "Un colaborador trabaja para una organización"
+    },
+    "attributes" : [ "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasResource",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "hasResource",
+      "en" : "tiene recursos de aprendizaje",
+      "es" : "has learning resource"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "A course has learning resourses",
+      "es" : "Un curso tiene recursos de aprendizaje"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasCreator",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "99",
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "en" : "has creator",
+      "es" : "tiene creador"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "The syllabus has a person who makes it",
+      "es" : "El sílabo tiene una persona quien lo elabora"
+    },
+    "attributes" : [ "object" ],
+    "id" : "174"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#socialAssistance",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "socialAssistance",
+      "en" : "social assistance",
+      "es" : "asistencia social"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Social Assistance - University Welfare.",
+      "es" : "Asistencia Social - Bienestar Universitario."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "175"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#csName",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "178",
+    "label" : {
+      "IRI-based" : "csName",
+      "en" : "course official name",
+      "es" : "nombre oficial del curso"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "Official name of a course or credit",
+      "es" : "Nombre oficial de un curso o sílabo"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "177"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#develops",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "develops",
+      "en" : "develops",
+      "es" : "desarrolla"
+    },
+    "superproperty" : [ "157" ],
+    "domain" : "35",
+    "comment" : {
+      "en" : "Competence with a TOTAL correspondence to the curriculum. The contribution of the Curriculum is greater than 70%",
+      "es" : "Competencia con una correspondencia TOTAL al plan de estudio. La contribución del Plan de Estudio es mayor al 70 %"
+    },
+    "attributes" : [ "object" ],
+    "id" : "179"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/description",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "181",
+    "label" : {
+      "IRI-based" : "description",
+      "en" : "resource description",
+      "es" : "descripcion del recurso"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "180"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#isEvaluated",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "119",
+    "label" : {
+      "IRI-based" : "isEvaluated",
+      "en" : "is evaluated",
+      "es" : "es evaluado"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "One or more courses are evaluated in the egress profile",
+      "es" : "Uno o varias asignaturas son evaluadas en el perfil de egreso"
+    },
+    "attributes" : [ "object" ],
+    "id" : "182"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasSupervisor",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "184",
+    "label" : {
+      "IRI-based" : "hasSupervisor",
+      "en" : "has supervisor",
+      "es" : "tiene supervisor"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "183",
+    "comment" : {
+      "en" : "A course or syllabus has one or more supervisors",
+      "es" : "Un curso o sílabo tiene un o varios supervisores"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#specialized",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "specialized",
+      "en" : "specialized acreditation",
+      "es" : "acreditación especializada"
+    },
+    "domain" : "35",
+    "comment" : {
+      "en" : "SUNEDU, establishes standards and evaluates the performance of a profesional school. Specialized accreditation prevails in almost all professional fields",
+      "es" : "SUNEDU,  establece estándares y evalúa el desempeño de una escuela profesional dentro de una institución. La acreditación especializada prevalece en casi todos los campos profesionales"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/creator",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "creator"
+    },
+    "domain" : "24",
+    "comment" : {
+      "es" : "Responsable de elaborar el recurso. Puede ser una entidad, una persona o un servicio."
+    },
+    "attributes" : [ "object", "irreflexive", "external", "asymmetric" ],
+    "id" : "188"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#competencesDetail",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "190",
+    "label" : {
+      "IRI-based" : "competencesDetail",
+      "en" : "competences detail",
+      "es" : "detalle de competencia"
+    },
+    "domain" : "102",
+    "comment" : {
+      "en" : "Description corresponding to competences",
+      "es" : "Descripción correspondiente a competencias"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "189"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#partOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "partOf",
+      "en" : "part of",
+      "es" : "parte de"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "76",
+    "comment" : {
+      "en" : "Property that represents part-all relationships",
+      "es" : "Propiedad que representa las relaciones parte-todo"
+    },
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "191"
+  }, {
+    "range" : "8",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "192"
+  }, {
+    "range" : "3",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasAttender",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasAttender",
+      "en" : "has attender",
+      "es" : "tiene asistentes"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "68",
+    "comment" : {
+      "en" : "A course has one or more attendees",
+      "es" : "Un curso tiene uno o varios asistentes"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/lastName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "194",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "lastName"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "171"
+  }, {
+    "range" : "8",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "197",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "197",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "8",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#contactHours",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "contactHours",
+      "en" : "contact hours",
+      "es" : "horas presenciales"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Hours taught within the classroom.",
+      "undefined" : "Horas impartidas dentro del aula de clases."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "200"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#partOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "partOf",
+      "en" : "part of",
+      "es" : "parte de"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "106",
+    "comment" : {
+      "en" : "Property that represents part-all relationships",
+      "es" : "Propiedad que representa las relaciones parte-todo"
+    },
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "203"
+  }, {
+    "range" : "124",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#totalHours",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "207",
+    "label" : {
+      "IRI-based" : "totalHours",
+      "en" : "hours",
+      "es" : "horas"
+    },
+    "domain" : "206",
+    "comment" : {
+      "en" : "The number of pedagogical hours a course has",
+      "es" : "La cantidad de horas pedagógicas que posee una asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://schema.org/url",
+    "baseIri" : "http://schema.org",
+    "range" : "210",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://schema.org/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "url"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#sleepingService",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "212",
+    "label" : {
+      "IRI-based" : "sleepingService",
+      "en" : "sleeping service",
+      "es" : "internado"
+    },
+    "domain" : "8",
+    "comment" : {
+      "es" : "Servicio de internado"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "211"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#alumnusOf",
+    "inverse" : "77",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "alumnusOf",
+      "en" : "alumnus of",
+      "es" : "alumno de"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "11",
+    "comment" : {
+      "en" : "A student is a student of a Professional School",
+      "es" : "Un estudiante es alumno una  Escuela Profesional"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "80"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#isJoinned",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "isJoinned",
+      "en" : "is joinned",
+      "es" : "está unido"
+    },
+    "domain" : "35",
+    "subproperty" : [ "214", "215", "216" ],
+    "comment" : {
+      "en" : "Superproperty of some object properties that represents any type of affiliation relationship between the following classes: Course and Strategic axes",
+      "es" : "Superpropiedad de algunas propiedades de objeto que representa cualquier tipo de relación de afiliación entre las siguientes clases: asignaturas y ejes estratégicos"
+    },
+    "attributes" : [ "object" ],
+    "id" : "213"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#academicYear",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "218",
+    "label" : {
+      "IRI-based" : "academicYear",
+      "en" : "academic year",
+      "es" : "año académico"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Academic year in which a course begins Eg: 2016-2017",
+      "es" : "Año académico en la que un curso empieza Ej: 2016-2017"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "217"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#nocontactHours",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "220",
+    "label" : {
+      "IRI-based" : "nocontactHours",
+      "en" : "non-contact hours",
+      "es" : "horas no presenciales"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Hours taught outside the classroom, can also be the course tutoring time",
+      "es" : "Horas impartidas fuera del aula, tambien puede ser las horas de tutoría del curso."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "219"
+  }, {
+    "iri" : "http://schema.org/email",
+    "baseIri" : "http://schema.org",
+    "range" : "222",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://schema.org/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "email"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "221"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#legalName",
+    "equivalent" : [ "224" ],
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "208",
+    "label" : {
+      "IRI-based" : "legalName",
+      "en" : "organization official name",
+      "es" : "nombre oficial"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Official name of the Institution",
+      "es" : "Nombre oficial de la Institución"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "223"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasAlumnus",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "hasAlumnus",
+      "en" : "has alumnus",
+      "es" : "tiene alumnos"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "6",
+    "comment" : {
+      "en" : "A professional school has one or more students",
+      "es" : "Una escuela profesional tiene uno o varios alumnos"
+    },
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#academicAssistance",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "228",
+    "label" : {
+      "IRI-based" : "academicAssistance",
+      "en" : "academic assistance",
+      "es" : "Asistencia académica"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Academic Assistance - Academic Tutoring",
+      "es" : "Asistencia académica - Tutoría Académica"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "227"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#schedule",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "230",
+    "label" : {
+      "IRI-based" : "schedule",
+      "en" : "schedule",
+      "es" : "horario de clases"
+    },
+    "domain" : "45",
+    "comment" : {
+      "en" : "Hours of classes in which a subject is taught",
+      "es" : "Horario de clases en las que se imparte una asignatura"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "229"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#studentID",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "232",
+    "label" : {
+      "IRI-based" : "studentID",
+      "en" : "universitary code",
+      "es" : "código universitario"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en" : "Student's academic identity",
+      "es" : "Identidad académica del estudiante"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "231"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasAcademicStaff",
+    "inverse" : "26",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasAcademicStaff",
+      "en" : "has academic staff",
+      "es" : "tiene personal académico"
+    },
+    "superproperty" : [ "28" ],
+    "domain" : "6",
+    "comment" : {
+      "en" : "The professional school has one of several academic staff",
+      "es" : "La escuela profesional tiene uno varios personal académico"
+    },
+    "attributes" : [ "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#partiallyDevelops",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "partiallyDevelops",
+      "en" : "partially develops",
+      "es" : "desarrolla parcial"
+    },
+    "superproperty" : [ "157" ],
+    "domain" : "35",
+    "comment" : {
+      "en" : "Competence with a PARCIAL correspondence to the curriculum. The contribution of the Curriculum is between 35% and 65%",
+      "es" : "Competencia con una correspondencia PARCIAL al plan de estudio. La contribución del Plan de Estudio está entre 35% y 65%"
+    },
+    "attributes" : [ "object" ],
+    "id" : "235"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasProduct",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasProduct",
+      "en" : "has product",
+      "es" : "tiene producto"
+    },
+    "superproperty" : [ "213" ],
+    "domain" : "48",
+    "comment" : {
+      "en" : "A strategic axis has one or more products that are, which can range from a report to an article. The products are presented by students at the axis events or in the classroom",
+      "es" : "Un eje estratégico  tiene uno o varios productos que son, que puede ser desde un informe hasta un artículo. Los productos son presentados por los estudiantes en los eventos del eje o en el salón de clases"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "214"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#requiresProgram",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "requiresProgram",
+      "en" : "required program of study",
+      "es" : "requiere programa de estudios"
+    },
+    "domain" : "30",
+    "attributes" : [ "object", "irreflexive", "asymmetric" ],
+    "id" : "237"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasLearningOutcome",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "hasLearningOutcome",
+      "en" : "has Learning Outcome",
+      "es" : "tiene resultado de aprendizaje"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "68",
+    "comment" : {
+      "en" : "A course has one or more learning outcomes",
+      "es" : "Una asignatura tiene uno o varios resultados de aprendizaje"
+    },
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasEvent",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "hasEvent",
+      "en" : "has event",
+      "es" : "tiene evento"
+    },
+    "superproperty" : [ "213" ],
+    "domain" : "48",
+    "comment" : {
+      "en" : "A strategic axis has one or more events that are developed by the faculties and those responsible for the axis",
+      "es" : "Un eje estratégico  tiene uno o varios eventos que son desarrollados por los responsables del eje"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "215"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasCompetencesLA",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "hasCompetencesLA",
+      "en" : "has competences",
+      "es" : "tiene competencias"
+    },
+    "superproperty" : [ "213" ],
+    "domain" : "54",
+    "comment" : {
+      "en" : "The strategic axis of learning education has one or more competencies",
+      "es" : "El eje  estratégico de  enseñanza aprendizaje tiene uno o varias competencias"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "216"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#studentModality",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "240",
+    "label" : {
+      "IRI-based" : "studentModality",
+      "en" : "student's study modality",
+      "es" : "modalidad de estudios del estudiante"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en" : "The student can be in the modality: face-to-face. semi face-to-face or remotely",
+      "es" : "El estudiante puede estar en la modalidad: presencial. semi presencial o a distancia"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "239"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#containsTo",
+    "inverse" : "160",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "containsTo",
+      "en" : "contains to",
+      "es" : "contiene a"
+    },
+    "domain" : "48",
+    "comment" : {
+      "en" : "A strategic axis contains one or more courses",
+      "es" : "Un eje estratégico contiene uno o varios cursos"
+    },
+    "attributes" : [ "object" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/date",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "185",
+    "label" : {
+      "IRI-based" : "date",
+      "en" : "resource publication date",
+      "es" : "fecha de publicación del recurso"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://purl.org/dc/elements/1.1/subject",
+    "baseIri" : "http://purl.org/dc/elements/1.1",
+    "range" : "172",
+    "label" : {
+      "IRI-based" : "subject",
+      "en" : "topic of the resource",
+      "es" : "tema del recurso"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "243"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#syllabusOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "syllabusOf",
+      "en" : "syllabus of",
+      "es" : "sílabo de"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "It is a syllabus to a subject.",
+      "es" : "Es sílabo de una asignatura"
+    },
+    "attributes" : [ "object" ],
+    "id" : "244"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#contributesTo",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "contributesTo",
+      "en" : "contributes to",
+      "es" : "contribuye a"
+    },
+    "domain" : "68",
+    "subproperty" : [ "179", "156", "235" ],
+    "comment" : {
+      "en" : "One or more subjects contribute to one or more consentences",
+      "es" : "Una o varias asignaturas  contribuyen a una o varias compentencias"
+    },
+    "attributes" : [ "object" ],
+    "id" : "157"
+  }, {
+    "range" : "30",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "30",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasPrerequisite",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasPrerequisite",
+      "en" : "has prerequisite",
+      "es" : "tiene prerequisito"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "A course has one or more prerequisites",
+      "es" : "Una asignatura tiene uno o varios prerequisitos"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "247"
+  }, {
+    "range" : "10",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "54",
+    "domain" : "149",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "136",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "0",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "13",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://schema.org/legalName",
+    "baseIri" : "http://schema.org",
+    "range" : "254",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://schema.org/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "legalName"
+    },
+    "domain" : "35",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "224"
+  }, {
+    "range" : "197",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "142",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#foaf:gender",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "234",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "foaf:gender",
+      "en" : "gender",
+      "es" : "género"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "257"
+  }, {
+    "range" : "67",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#partOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "partOf",
+      "en" : "part of",
+      "es" : "parte de"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "68",
+    "comment" : {
+      "en" : "Property that represents part-all relationships",
+      "es" : "Propiedad que representa las relaciones parte-todo"
+    },
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "259"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#partOf",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "partOf",
+      "en" : "part of",
+      "es" : "parte de"
+    },
+    "superproperty" : [ "34" ],
+    "domain" : "89",
+    "comment" : {
+      "en" : "Property that represents part-all relationships",
+      "es" : "Propiedad que representa las relaciones parte-todo"
+    },
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "260"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "11",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#aimsToLo",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "aimsToLo",
+      "en" : "aims to Learning Outcome",
+      "es" : "logra resultado de aprendizaje"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "A subject achieves a learning outcome",
+      "es" : "Una asignatura logra un resultado de aprendizaje"
+    },
+    "attributes" : [ "object" ],
+    "id" : "107"
+  }, {
+    "range" : "197",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "263"
+  }, {
+    "range" : "13",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#hasSyllabus",
+    "inverse" : "244",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasSyllabus",
+      "en" : "has syllabus",
+      "es" : "tiene sílabo"
+    },
+    "domain" : "68",
+    "comment" : {
+      "en" : "A subject has a syllabus",
+      "es" : "Una asignatura tiene un sílabo"
+    },
+    "attributes" : [ "object" ],
+    "id" : "265"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/member",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "35",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "member"
+    },
+    "domain" : "35",
+    "subproperty" : [ "125" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#endDate",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "226",
+    "label" : {
+      "IRI-based" : "endDate",
+      "en" : "end date",
+      "es" : "fecha final"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Date on which a curriculum, course, or cycle ends",
+      "es" : "Fecha en la que termina un programa de estudio, asignatura, o ciclo"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "266"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#address",
+    "equivalent" : [ "117" ],
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "233",
+    "label" : {
+      "IRI-based" : "address",
+      "en" : "address",
+      "es" : "dirección"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Address of a person's home",
+      "es" : "Dirección de la vivienda de una persona"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "267"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#belongsTo",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "belongsTo",
+      "en" : "belongs to",
+      "es" : "pertenece a"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "A professional school belongs to a University",
+      "es" : "Una Escuela profesional pertenece a una Universidad"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "268"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#email",
+    "equivalent" : [ "221" ],
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "225",
+    "label" : {
+      "IRI-based" : "email",
+      "en" : "e-mail",
+      "es" : "correo electrónico"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Institution email",
+      "es" : "Correo electrónico de la Institución"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "269"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#universityService",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "238",
+    "label" : {
+      "IRI-based" : "universityService",
+      "en" : "university service",
+      "es" : "servicios de la universidad"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Services provided by the University, in addition to teaching",
+      "es" : "Servicios que brinda la Universidad, a parte de la enseñanza"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "270"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#url",
+    "equivalent" : [ "209" ],
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "236",
+    "label" : {
+      "IRI-based" : "url",
+      "en" : "university's web address",
+      "es" : "dirección web de la Universidad"
+    },
+    "domain" : "4",
+    "attributes" : [ "datatype" ],
+    "id" : "271"
+  }, {
+    "iri" : "https://w3id.org/aipo/aipo#resourceType",
+    "baseIri" : "https://w3id.org/aipo/aipo",
+    "range" : "250",
+    "label" : {
+      "IRI-based" : "resourceType",
+      "en" : "resource type",
+      "es" : "tipo de recurso"
+    },
+    "domain" : "24",
+    "comment" : {
+      "en" : "Type of resource used. The resource can be complementary, basic or virtual",
+      "es" : "Tipo de recurso utilizado. El recurso puede ser complementario, básico o virtual"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "272"
+  } ]
+}
