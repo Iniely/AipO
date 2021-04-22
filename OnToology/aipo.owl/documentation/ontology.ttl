@@ -3560,6 +3560,11 @@ considerando las cualidades del liderazgo""" .
                  :foaf:gender "Masculino " .
 
 
+###  https://w3id.org/aipo/aipo#Demonstration
+:Demonstration rdf:type owl:NamedIndividual ,
+                        :EvaluationMethod .
+
+
 ###  https://w3id.org/aipo/aipo#Denis_Bedriñana
 :Denis_Bedriñana rdf:type owl:NamedIndividual ,
                           :Person ,
@@ -4066,6 +4071,7 @@ considerando las cualidades del liderazgo""" .
                                :Denis_Bedriñana ,
                                :Deyri_Aguirre ,
                                :Diana_Irrazabal ,
+                               :Diana_Villacrez ,
                                :Diego_Aspajo ,
                                :Dutsy_Sarmiento ,
                                :Eduardo_Jalanoca ,
@@ -5218,6 +5224,11 @@ considerando las cualidades del liderazgo""" .
             :surname "Luy Medina" ;
             :workingCondition "Hired Part Time" ;
             :foaf:gender "Femenino" .
+
+
+###  https://w3id.org/aipo/aipo#Homework
+:Homework rdf:type owl:NamedIndividual ,
+                   :EvaluationMethod .
 
 
 ###  https://w3id.org/aipo/aipo#Hortal2002
@@ -6666,6 +6677,11 @@ considerando las cualidades del liderazgo""" .
               :foaf:gender "Masculino " .
 
 
+###  https://w3id.org/aipo/aipo#OralExam
+:OralExam rdf:type owl:NamedIndividual ,
+                   :EvaluationMethod .
+
+
 ###  https://w3id.org/aipo/aipo#Oscar_Gutierrez
 :Oscar_Gutierrez rdf:type owl:NamedIndividual ,
                           :Employee ,
@@ -6946,6 +6962,11 @@ considerando las cualidades del liderazgo""" .
              rdfs:label "Perfil de egreso de Administración y Negocios Internacionales" .
 
 
+###  https://w3id.org/aipo/aipo#Project
+:Project rdf:type owl:NamedIndividual ,
+                  :EvaluationMethod .
+
+
 ###  https://w3id.org/aipo/aipo#Raúl_Dueñas
 :Raúl_Dueñas rdf:type owl:NamedIndividual ,
                       :Employee ,
@@ -7024,7 +7045,8 @@ considerando las cualidades del liderazgo""" .
         :hasSyllabus :S1-CCI_Syl ;
         :isLinked :Inv2 ,
                   :Pe-2 ;
-        :partOf :Semester1 ;
+        :partOf :KA_Genérico ,
+                :Semester1 ;
         :contactHours 3 ;
         :creditsECTS 2 ;
         :csName "Capacidades Comunicativas I " ;
@@ -7055,7 +7077,8 @@ considerando las cualidades del liderazgo""" .
         :hasSyllabus :S1-FDI_Syl ;
         :isLinked :PS1 ,
                   :Pe-1 ;
-        :partOf :Semester1 ;
+        :partOf :KA_Genérico ,
+                :Semester1 ;
         :contactHours 2 ;
         :creditsECTS 2 ;
         :csName "Formación y Desarrollo Integral I " ;
@@ -7085,7 +7108,8 @@ considerando las cualidades del liderazgo""" .
          :hasSyllabus :S1-Filo_Syl ;
          :isLinked :PS2 ,
                    :Pe-2 ;
-         :partOf :Semester1 ;
+         :partOf :KA_Genérico ,
+                 :Semester1 ;
          :contactHours 2 ;
          :creditsECTS 2 ;
          :csName "Introducción a la Filosofía " ;
@@ -7112,7 +7136,8 @@ considerando las cualidades del liderazgo""" .
                  :Course ;
         :hasInstructor :Lizeth_Huanca ;
         :hasSyllabus :S1-Inf_Syl ;
-        :partOf :Semester1 ;
+        :partOf :KA_Genérico ,
+                :Semester1 ;
         :contactHours 3 ;
         :creditsECTS 2 ;
         :csName " Informática " ;
@@ -7143,7 +7168,8 @@ considerando las cualidades del liderazgo""" .
            :hasSyllabus :S1-IntNeg_Syl ;
            :minorDevelops :E-C3 ,
                           :M-C1 ;
-           :partOf :KA_NegociosInternacionales ,
+           :partOf :KA_Emprendedorismo ,
+                   :KA_NegociosInternacionales ,
                    :Semester1 ;
            :partiallyDevelops :E-C1 ,
                               :NI-C2 ,
@@ -7177,7 +7203,8 @@ considerando las cualidades del liderazgo""" .
                        :Nancy_Lazo ,
                        :Ruth_Vallejos ;
         :hasSyllabus :S1-SCF_Syl ;
-        :partOf :Semester1 ;
+        :partOf :KA_Genérico ,
+                :Semester1 ;
         :contactHours 4 ;
         :creditsECTS 3 ;
         :csName "Salud y Cultura Física I " ;
@@ -7206,7 +7233,8 @@ considerando las cualidades del liderazgo""" .
         :hasSyllabus :S1-TEI_Syl ;
         :isLinked :Inv1 ,
                   :Pe-1 ;
-        :partOf :Semester1 ;
+        :partOf :KA_Genérico ,
+                :Semester1 ;
         :contactHours 3 ;
         :creditsECTS 2 ;
         :csName "Técnicas de Estudio e Investigación" ;
@@ -7233,7 +7261,8 @@ considerando las cualidades del liderazgo""" .
           :hasSyllabus :S1-TGAdm_Syl ;
           :isLinked :Inv4 ,
                     :Pe-1 ;
-          :partOf :Semester1 ;
+          :partOf :KA_GestionEmpresarial ,
+                  :Semester1 ;
           :partiallyDevelops :GE-C1 ,
                              :GE-C2 ,
                              :GE-C3 ,
@@ -7425,7 +7454,9 @@ considerando las cualidades del liderazgo""" .
                        :M-C1 ,
                        :M-C2 ,
                        :NI-C4 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_Emprendedorismo ,
+                :KA_NegociosInternacionales ,
+                :Profile_ANI ,
                 :Semester2 ;
         :partiallyDevelops :NI-C1 ,
                            :NI-C2 ,
@@ -7463,6 +7494,8 @@ considerando las cualidades del liderazgo""" .
         :isLinked :PS4 ,
                   :Pe-3 ;
         :partOf :KA_Genérico ,
+                :KA_GestionEmpresarial ,
+                :KA_GestionTH ,
                 :Semester2 ;
         :contactHours 2 ;
         :courseType "Generic" ;
@@ -7534,7 +7567,9 @@ considerando las cualidades del liderazgo""" .
                         :GT-C1 ,
                         :GT-C2 ,
                         :GT-C7 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_Emprendedorismo ,
+                 :KA_Marketing ,
+                 :Profile_ANI ,
                  :Semester2 ;
          :contactHours 5 ;
          :courseType "Specific" ;
@@ -7595,7 +7630,8 @@ considerando las cualidades del liderazgo""" .
           :hasLearningOutcome :LO-2 ;
           :hasSyllabus :S3-ContI_Syl ;
           :isEvaluated :Profile_ANI ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_Finanzas ,
+                  :Profile_ANI ,
                   :Semester3 ;
           :partiallyDevelops :F-C2 ,
                              :F-C3 ;
@@ -7629,7 +7665,9 @@ considerando las cualidades del liderazgo""" .
            :hasInstructor :David_Aguilar ;
            :hasSyllabus :S3-CreaEI_Syl ;
            :minorDevelops :M-C2 ;
-           :partOf :Profile_ANI ,
+           :partOf :KA_Emprendedorismo ,
+                   :KA_GestionEmpresarial ,
+                   :Profile_ANI ,
                    :Semester3 ;
            :partiallyDevelops :GE-C1 ;
            :contactHours 3 ;
@@ -7763,7 +7801,9 @@ considerando las cualidades del liderazgo""" .
          :isLinked :PS7 ,
                    :Pe-5 ;
          :minorDevelops :GT-C7 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_GestionEmpresarial ,
+                 :KA_GestionTH ,
+                 :Profile_ANI ,
                  :Semester3 ;
          :partiallyDevelops :GE-C1 ,
                             :GE-C2 ,
@@ -7800,7 +7840,8 @@ considerando las cualidades del liderazgo""" .
         :hasSyllabus :S3-LEG_Syl ;
         :isLinked :Inv7 ,
                   :Pe-1 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_GestionEmpresarial ,
+                :Profile_ANI ,
                 :Semester3 ;
         :contactHours 3 ;
         :courseType "Specific" ;
@@ -7833,7 +7874,8 @@ considerando las cualidades del liderazgo""" .
          :hasPrerequisite :S2-Mat ;
          :hasSyllabus :S3-MaTN_Syl ;
          :minorDevelops :F-C2 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_Finanzas ,
+                 :Profile_ANI ,
                  :Semester3 ,
                  :Year_2 ;
          :contactHours 3 ;
@@ -7868,7 +7910,9 @@ considerando las cualidades del liderazgo""" .
          :hasSyllabus :S3-Micr_Syl ;
          :minorDevelops :E-C4 ,
                         :M-C2 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_Emprendedorismo ,
+                 :KA_Marketing ,
+                 :Profile_ANI ,
                  :Semester3 ;
          :partiallyDevelops :M-C1 ;
          :contactHours 3 ;
@@ -7903,7 +7947,9 @@ considerando las cualidades del liderazgo""" .
            :hasPrerequisite :S3-ContI ;
            :hasSyllabus :S4-ContII_Syl ;
            :isEvaluated :Profile_ANI ;
-           :partOf :Profile_ANI ,
+           :partOf :KA_Emprendedorismo ,
+                   :KA_Finanzas ,
+                   :Profile_ANI ,
                    :Semester4 ;
            :partiallyDevelops :E-C4 ,
                               :F-C3 ;
@@ -7938,7 +7984,9 @@ considerando las cualidades del liderazgo""" .
             :hasSyllabus :S4-CreaEII_Syl ;
             :minorDevelops :E-C4 ,
                            :M-C3 ;
-            :partOf :Profile_ANI ,
+            :partOf :KA_Emprendedorismo ,
+                    :KA_Investigacion ,
+                    :Profile_ANI ,
                     :Semester4 ;
             :partiallyDevelops :E-C2 ,
                                :I-C1 ,
@@ -7976,7 +8024,9 @@ considerando las cualidades del liderazgo""" .
           :hasPrerequisite :S3-MaTN ;
           :hasSyllabus :S4-CálcF_Syl ;
           :isEvaluated :Profile_ANI ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_Emprendedorismo ,
+                  :KA_Finanzas ,
+                  :Profile_ANI ,
                   :Semester4 ;
           :partiallyDevelops :F-C3 ;
           :contactHours 3 ;
@@ -8100,7 +8150,9 @@ considerando las cualidades del liderazgo""" .
           :isLinked :Inv9 ,
                     :Pe-6 ;
           :minorDevelops :GE-C1 ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_GestionEmpresarial ,
+                  :KA_GestionTH ,
+                  :Profile_ANI ,
                   :Semester4 ;
           :partiallyDevelops :GE-C4 ,
                              :GT-C4 ,
@@ -8139,7 +8191,9 @@ considerando las cualidades del liderazgo""" .
                         :E-C3 ,
                         :I-C1 ,
                         :I-C2 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_Investigacion ,
+                 :KA_Marketing ,
+                 :Profile_ANI ,
                  :Semester4 ;
          :partiallyDevelops :I-C3 ;
          :contactHours 3 ;
@@ -8175,7 +8229,8 @@ considerando las cualidades del liderazgo""" .
          :hasSyllabus :S4-Macr_Syl ;
          :minorDevelops :F-C3 ,
                         :M-C3 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_Emprendedorismo ,
+                 :Profile_ANI ,
                  :Semester4 ;
          :partiallyDevelops :E-C3 ;
          :contactHours 3 ;
@@ -8214,7 +8269,9 @@ considerando las cualidades del liderazgo""" .
         :hasSyllabus :S5-CDO_Syl ;
         :isLinked :PS8 ,
                   :Pe-5 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_GestionEmpresarial ,
+                :KA_GestionTH ,
+                :Profile_ANI ,
                 :Semester5 ;
         :contactHours 4 ;
         :courseType "Specific" ;
@@ -8323,7 +8380,8 @@ considerando las cualidades del liderazgo""" .
           :isEvaluated :Profile_ANI ;
           :isLinked :Inv10 ,
                     :Pe-7 ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_NegociosInternacionales ,
+                  :Profile_ANI ,
                   :Semester5 ;
           :contactHours 3 ;
           :courseType "Specialty" ;
@@ -8394,7 +8452,8 @@ considerando las cualidades del liderazgo""" .
        :hasSyllabus :S5-HI_Syl ;
        :isLinked :Inv11 ,
                  :Pe-7 ;
-       :partOf :Profile_ANI ,
+       :partOf :KA_Investigacion ,
+               :Profile_ANI ,
                :Semester5 ;
        :contactHours 4 ;
        :courseType "Specific" ;
@@ -8437,7 +8496,10 @@ considerando las cualidades del liderazgo""" .
        :isEvaluated :Profile_ANI ;
        :isLinked :Inv12 ,
                  :Pe-7 ;
-       :partOf :Profile_ANI ,
+       :partOf :KA_Emprendedorismo ,
+               :KA_Investigacion ,
+               :KA_Marketing ,
+               :Profile_ANI ,
                :Semester5 ;
        :partiallyDevelops :I-C2 ;
        :contactHours 3 ;
@@ -8477,7 +8539,9 @@ considerando las cualidades del liderazgo""" .
           :hasSyllabus :S5-ModCu_Syl ;
           :minorDevelops :E-C3 ,
                          :M-C3 ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_Emprendedorismo ,
+                  :KA_GestionEmpresarial ,
+                  :Profile_ANI ,
                   :Semester5 ;
           :contactHours 4 ;
           :courseType "Specific" ;
@@ -8512,7 +8576,8 @@ considerando las cualidades del liderazgo""" .
         :isEvaluated :Profile_ANI ;
         :isLinked :PS10 ,
                   :Pe-9 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_NegociosInternacionales ,
+                :Profile_ANI ,
                 :Semester6 ;
         :contactHours 3 ;
         :courseType "Specialty" ;
@@ -8570,7 +8635,9 @@ considerando las cualidades del liderazgo""" .
             :hasInstructor :Juan_Vento ;
             :hasSyllabus :S6-ElectII_Syl ;
             :isEvaluated :Profile_ANI ;
-            :partOf :Profile_ANI ,
+            :partOf :KA_GestionTH ,
+                    :KA_NegociosInternacionales ,
+                    :Profile_ANI ,
                     :Semester6 ;
             :contactHours 2 ;
             :courseType "Specialty" ;
@@ -8630,7 +8697,9 @@ considerando las cualidades del liderazgo""" .
           :hasPrerequisite :S4-CálcF ;
           :hasSyllabus :S6-FinzI_Syl ;
           :isEvaluated :Profile_ANI ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_Emprendedorismo ,
+                  :KA_Finanzas ,
+                  :Profile_ANI ,
                   :Semester6 ;
           :partiallyDevelops :F-C2 ,
                              :F-C3 ;
@@ -8666,7 +8735,8 @@ considerando las cualidades del liderazgo""" .
                   :Pe-8 ;
         :minorDevelops :E-C3 ,
                        :M-C3 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_GestionEmpresarial ,
+                :Profile_ANI ,
                 :Semester6 ;
         :contactHours 4 ;
         :courseType "Specific" ;
@@ -8701,7 +8771,9 @@ considerando las cualidades del liderazgo""" .
           :isEvaluated :Profile_ANI ;
           :isLinked :Inv14 ,
                     :Pe-8 ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_Emprendedorismo ,
+                  :KA_Marketing ,
+                  :Profile_ANI ,
                   :Semester6 ;
           :contactHours 4 ;
           :courseType "Specialty" ;
@@ -8737,7 +8809,9 @@ considerando las cualidades del liderazgo""" .
                    :Pe-9 ;
          :minorDevelops :NI-C1 ,
                         :NI-C4 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_GestionTH ,
+                 :KA_NegociosInternacionales ,
+                 :Profile_ANI ,
                  :Semester6 ;
          :partiallyDevelops :NI-C3 ;
          :contactHours 4 ;
@@ -8771,7 +8845,8 @@ considerando las cualidades del liderazgo""" .
           :hasSupervisor :Julio_Rengifo ,
                          :Maritza_Arana ;
           :hasSyllabus :S7-AdmOp_Syl ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_GestionEmpresarial ,
+                  :Profile_ANI ,
                   :Semester7 ;
           :contactHours 4 ;
           :courseType "Specific" ;
@@ -8850,7 +8925,11 @@ considerando las cualidades del liderazgo""" .
                        :I-C2 ,
                        :I-C3 ,
                        :M-C2 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_Emprendedorismo ,
+                :KA_Finanzas ,
+                :KA_GestionEmpresarial ,
+                :KA_Marketing ,
+                :Profile_ANI ,
                 :Semester7 ;
         :partiallyDevelops :F-C2 ,
                            :GE-C1 ;
@@ -8869,6 +8948,7 @@ considerando las cualidades del liderazgo""" .
 :S7-FEP_Syl rdf:type owl:NamedIndividual ,
                      :Syllabus ;
             :aimsToLo :LO-8 ;
+            :followsEM :Project ;
             :hasResource :Sapag2011 ;
             :hasSupervisor :Julio_Rengifo ,
                            :Maritza_Arana ;
@@ -8892,7 +8972,9 @@ considerando las cualidades del liderazgo""" .
                           :Maritza_Arana ;
            :hasSyllabus :S7-FinzII_Syl ;
            :isEvaluated :Profile_ANI ;
-           :partOf :Profile_ANI ,
+           :partOf :KA_Emprendedorismo ,
+                   :KA_Finanzas ,
+                   :Profile_ANI ,
                    :Semester7 ;
            :contactHours 4 ;
            :courseType "Specialty" ;
@@ -8931,7 +9013,8 @@ considerando las cualidades del liderazgo""" .
             :isLinked :EC1 ,
                       :Pe-10 ;
             :minorDevelops :GT-C6 ;
-            :partOf :Profile_ANI ,
+            :partOf :KA_GestionTH ,
+                    :Profile_ANI ,
                     :Semester7 ;
             :partiallyDevelops :GT-C7 ;
             :contactHours 4 ;
@@ -8970,7 +9053,8 @@ considerando las cualidades del liderazgo""" .
         :hasSyllabus :S7-RSE_Syl ;
         :isLinked :EC2 ,
                   :Pe-10 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_GestionEmpresarial ,
+                :Profile_ANI ,
                 :Semester7 ;
         :contactHours 2 ;
         :courseType "Specific" ;
@@ -9010,7 +9094,9 @@ considerando las cualidades del liderazgo""" .
        :hasSyllabus :S7-TI_Syl ;
        :isLinked :Inv16 ,
                  :Pe-8 ;
-       :partOf :Profile_ANI ,
+       :partOf :KA_Investigacion ,
+               :KA_NegociosInternacionales ,
+               :Profile_ANI ,
                :Semester7 ;
        :contactHours 3 ;
        :courseType "Specific" ;
@@ -9036,7 +9122,10 @@ considerando las cualidades del liderazgo""" .
                        :Maritza_Arana ;
         :hasSyllabus :S7-TIS_Syl ;
         :isEvaluated :Profile_ANI ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_Emprendedorismo ,
+                :KA_GestionEmpresarial ,
+                :KA_NegociosInternacionales ,
+                :Profile_ANI ,
                 :Semester7 ;
         :contactHours 3 ;
         :courseType "Specialty" ;
@@ -9084,7 +9173,10 @@ considerando las cualidades del liderazgo""" .
           :hasLearningOutcome :LO-11 ;
           :hasPrerequisite :S4-ContII ;
           :hasSyllabus :S8-ConTG_Syl ;
-          :partOf :Profile_ANI ,
+          :partOf :KA_Emprendedorismo ,
+                  :KA_Finanzas ,
+                  :KA_GestionEmpresarial ,
+                  :Profile_ANI ,
                   :Semester8 ;
           :partiallyDevelops :E-C4 ,
                              :F-C2 ,
@@ -9125,7 +9217,10 @@ considerando las cualidades del liderazgo""" .
                        :Pe-10 ;
              :minorDevelops :E-C2 ,
                             :M-C2 ;
-             :partOf :Profile_ANI ,
+             :partOf :KA_Emprendedorismo ,
+                     :KA_GestionEmpresarial ,
+                     :KA_Marketing ,
+                     :Profile_ANI ,
                      :Semester8 ;
              :contactHours 3 ;
              :courseType "Specific" ;
@@ -9217,7 +9312,9 @@ considerando las cualidades del liderazgo""" .
          :hasSyllabus :S8-GPPr_Syl ;
          :isLinked :Inv17 ,
                    :Pe-11 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_Emprendedorismo ,
+                 :KA_GestionEmpresarial ,
+                 :Profile_ANI ,
                  :Semester8 ;
          :contactHours 4 ;
          :courseType "Specific" ;
@@ -9248,7 +9345,9 @@ considerando las cualidades del liderazgo""" .
          :hasInstructor :Julia_Bartolo ;
          :hasSyllabus :S8-GSIG_Syl ;
          :minorDevelops :M-C2 ;
-         :partOf :Profile_ANI ,
+         :partOf :KA_Emprendedorismo ,
+                 :KA_GestionEmpresarial ,
+                 :Profile_ANI ,
                  :Semester8 ;
          :partiallyDevelops :E-C3 ;
          :contactHours 4 ;
@@ -9282,7 +9381,8 @@ considerando las cualidades del liderazgo""" .
         :isEvaluated :Profile_ANI ;
         :isLinked :EC5 ,
                   :Pe-10 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_NegociosInternacionales ,
+                :Profile_ANI ,
                 :Semester8 ;
         :contactHours 3 ;
         :courseType "Specialty" ;
@@ -9317,7 +9417,10 @@ considerando las cualidades del liderazgo""" .
         :hasSyllabus :S8-TII_Syl ;
         :isLinked :Inv18 ,
                   :Pe-11 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_Emprendedorismo ,
+                :KA_Investigacion ,
+                :KA_Marketing ,
+                :Profile_ANI ,
                 :Semester8 ;
         :partiallyDevelops :M-C1 ;
         :contactHours 4 ;
@@ -9354,7 +9457,9 @@ considerando las cualidades del liderazgo""" .
                           :GE-C2 ,
                           :GE-C3 ,
                           :M-C3 ;
-           :partOf :Profile_ANI ,
+           :partOf :KA_Emprendedorismo ,
+                   :KA_GestionEmpresarial ,
+                   :Profile_ANI ,
                    :Semester9 ;
            :partiallyDevelops :E-C3 ,
                               :GE-C4 ;
@@ -9389,7 +9494,8 @@ considerando las cualidades del liderazgo""" .
            :hasSyllabus :S9-AuGest_Syl ;
            :isLinked :EC6 ,
                      :Pe-10 ;
-           :partOf :Profile_ANI ,
+           :partOf :KA_GestionEmpresarial ,
+                   :Profile_ANI ,
                    :Semester9 ;
            :contactHours 4 ;
            :courseType "Specific" ;
@@ -9454,7 +9560,8 @@ considerando las cualidades del liderazgo""" .
                   :Pe-10 ,
                   :Pe-11 ;
         :minorDevelops :E-C4 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_Emprendedorismo ,
+                :Profile_ANI ,
                 :Semester9 ;
         :contactHours 4 ;
         :courseType "Specialty" ;
@@ -9488,7 +9595,8 @@ considerando las cualidades del liderazgo""" .
         :isEvaluated :Profile_ANI ;
         :isLinked :EC7 ,
                   :Pe-10 ;
-        :partOf :Profile_ANI ,
+        :partOf :KA_NegociosInternacionales ,
+                :Profile_ANI ,
                 :Semester9 ;
         :partiallyDevelops :NI-C2 ,
                            :NI-C3 ,
@@ -9527,7 +9635,9 @@ considerando las cualidades del liderazgo""" .
        :isEvaluated :Profile_ANI ;
        :isLinked :Inv19 ,
                  :Pe-11 ;
-       :partOf :Profile_ANI ,
+       :partOf :KA_Emprendedorismo ,
+               :KA_Marketing ,
+               :Profile_ANI ,
                :Semester9 ;
        :partiallyDevelops :M-C1 ;
        :contactHours 4 ;
@@ -10655,6 +10765,11 @@ considerando las cualidades del liderazgo""" .
                        :surname "Chuquillanqui Berrios" ;
                        :workingCondition "Employee" ;
                        :foaf:gender "Masculino " .
+
+
+###  https://w3id.org/aipo/aipo#WrittenExam
+:WrittenExam rdf:type owl:NamedIndividual ,
+                      :EvaluationMethod .
 
 
 ###  https://w3id.org/aipo/aipo#Year_1
