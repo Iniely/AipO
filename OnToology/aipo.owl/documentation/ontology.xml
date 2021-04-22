@@ -4583,6 +4583,15 @@ considerando las cualidades del liderazgo</axisDetail>
     
 
 
+    <!-- https://w3id.org/aipo/aipo#Demonstration -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/aipo/aipo#Demonstration">
+        <rdf:type rdf:resource="https://w3id.org/aipo/aipo#EvaluationMethod"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/aipo/aipo#Denis_Bedriñana -->
 
 
@@ -5178,6 +5187,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasAlumnus rdf:resource="https://w3id.org/aipo/aipo#Denis_Bedriñana"/>
         <hasAlumnus rdf:resource="https://w3id.org/aipo/aipo#Deyri_Aguirre"/>
         <hasAlumnus rdf:resource="https://w3id.org/aipo/aipo#Diana_Irrazabal"/>
+        <hasAlumnus rdf:resource="https://w3id.org/aipo/aipo#Diana_Villacrez"/>
         <hasAlumnus rdf:resource="https://w3id.org/aipo/aipo#Diego_Aspajo"/>
         <hasAlumnus rdf:resource="https://w3id.org/aipo/aipo#Dutsy_Sarmiento"/>
         <hasAlumnus rdf:resource="https://w3id.org/aipo/aipo#Eduardo_Jalanoca"/>
@@ -6486,6 +6496,15 @@ considerando las cualidades del liderazgo</axisDetail>
         <surname>Luy Medina</surname>
         <workingCondition>Hired Part Time</workingCondition>
         <foaf:gender>Femenino</foaf:gender>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/aipo/aipo#Homework -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/aipo/aipo#Homework">
+        <rdf:type rdf:resource="https://w3id.org/aipo/aipo#EvaluationMethod"/>
     </owl:NamedIndividual>
     
 
@@ -8299,6 +8318,15 @@ considerando las cualidades del liderazgo</axisDetail>
     
 
 
+    <!-- https://w3id.org/aipo/aipo#OralExam -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/aipo/aipo#OralExam">
+        <rdf:type rdf:resource="https://w3id.org/aipo/aipo#EvaluationMethod"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/aipo/aipo#Oscar_Gutierrez -->
 
 
@@ -8731,6 +8759,15 @@ considerando las cualidades del liderazgo</axisDetail>
     
 
 
+    <!-- https://w3id.org/aipo/aipo#Project -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/aipo/aipo#Project">
+        <rdf:type rdf:resource="https://w3id.org/aipo/aipo#EvaluationMethod"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- https://w3id.org/aipo/aipo#Raúl_Dueñas -->
 
 
@@ -8831,6 +8868,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-CCI_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv2"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Genérico"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
         <creditsECTS rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</creditsECTS>
@@ -8870,6 +8908,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-FDI_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#PS1"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-1"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Genérico"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</contactHours>
         <creditsECTS rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</creditsECTS>
@@ -8908,6 +8947,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-Filo_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#PS2"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Genérico"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</contactHours>
         <creditsECTS rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</creditsECTS>
@@ -8943,6 +8983,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <rdf:type rdf:resource="https://w3id.org/aipo/aipo#Course"/>
         <hasInstructor rdf:resource="https://w3id.org/aipo/aipo#Lizeth_Huanca"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-Inf_Syl"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Genérico"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
         <creditsECTS rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</creditsECTS>
@@ -8982,6 +9023,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-IntNeg_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C3"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C1"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C1"/>
@@ -9024,6 +9066,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasInstructor rdf:resource="https://w3id.org/aipo/aipo#Nancy_Lazo"/>
         <hasInstructor rdf:resource="https://w3id.org/aipo/aipo#Ruth_Vallejos"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-SCF_Syl"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Genérico"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
         <creditsECTS rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</creditsECTS>
@@ -9061,6 +9104,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-TEI_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv1"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-1"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Genérico"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
         <creditsECTS rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</creditsECTS>
@@ -9096,6 +9140,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S1-TGAdm_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv4"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-1"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester1"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C1"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C2"/>
@@ -9336,6 +9381,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C1"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C2"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#NI-C4"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester2"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#NI-C1"/>
@@ -9382,6 +9429,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#PS4"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-3"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Genérico"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionTH"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester2"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</contactHours>
         <courseType>Generic</courseType>
@@ -9469,6 +9518,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GT-C1"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GT-C2"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GT-C7"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester2"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</contactHours>
@@ -9546,6 +9597,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasLearningOutcome rdf:resource="https://w3id.org/aipo/aipo#LO-2"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S3-ContI_Syl"/>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester3"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#F-C2"/>
@@ -9588,6 +9640,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasInstructor rdf:resource="https://w3id.org/aipo/aipo#David_Aguilar"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S3-CreaEI_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester3"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C1"/>
@@ -9754,6 +9808,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#PS7"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-5"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GT-C7"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionTH"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester3"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C1"/>
@@ -9799,6 +9855,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S3-LEG_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv7"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-1"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester3"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
@@ -9840,6 +9897,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasPrerequisite rdf:resource="https://w3id.org/aipo/aipo#S2-Mat"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S3-MaTN_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#F-C2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester3"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Year_2"/>
@@ -9883,6 +9941,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S3-Micr_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C4"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester3"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C1"/>
@@ -9926,6 +9986,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasPrerequisite rdf:resource="https://w3id.org/aipo/aipo#S3-ContI"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S4-ContII_Syl"/>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester4"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C4"/>
@@ -9969,6 +10031,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S4-CreaEII_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C4"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C3"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Investigacion"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester4"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C2"/>
@@ -10015,6 +10079,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasPrerequisite rdf:resource="https://w3id.org/aipo/aipo#S3-MaTN"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S4-CálcF_Syl"/>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester4"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#F-C3"/>
@@ -10171,6 +10237,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv9"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-6"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C1"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionTH"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester4"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C4"/>
@@ -10218,6 +10286,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C3"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#I-C1"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#I-C2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Investigacion"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester4"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#I-C3"/>
@@ -10262,6 +10332,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S4-Macr_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#F-C3"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C3"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester4"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C3"/>
@@ -10309,6 +10380,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S5-CDO_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#PS8"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-5"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionTH"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester5"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -10442,6 +10515,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv10"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-7"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester5"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
@@ -10529,6 +10603,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S5-HI_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv11"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-7"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Investigacion"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester5"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -10580,6 +10655,9 @@ considerando las cualidades del liderazgo</axisDetail>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv12"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-7"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Investigacion"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester5"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#I-C2"/>
@@ -10628,6 +10706,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S5-ModCu_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C3"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C3"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester5"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -10671,6 +10751,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#PS10"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-9"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester6"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
@@ -10745,6 +10826,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasInstructor rdf:resource="https://w3id.org/aipo/aipo#Juan_Vento"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S6-ElectII_Syl"/>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionTH"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester6"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</contactHours>
@@ -10821,6 +10904,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasPrerequisite rdf:resource="https://w3id.org/aipo/aipo#S4-CálcF"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S6-FinzI_Syl"/>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester6"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#F-C2"/>
@@ -10865,6 +10950,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-8"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C3"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C3"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester6"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -10908,6 +10994,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv14"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-8"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester6"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -10952,6 +11040,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-9"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#NI-C1"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#NI-C4"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionTH"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester6"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#NI-C3"/>
@@ -10994,6 +11084,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSupervisor rdf:resource="https://w3id.org/aipo/aipo#Julio_Rengifo"/>
         <hasSupervisor rdf:resource="https://w3id.org/aipo/aipo#Maritza_Arana"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S7-AdmOp_Syl"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester7"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -11089,6 +11180,10 @@ considerando las cualidades del liderazgo</axisDetail>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#I-C2"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#I-C3"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester7"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#F-C2"/>
@@ -11112,6 +11207,7 @@ considerando las cualidades del liderazgo</axisDetail>
     <owl:NamedIndividual rdf:about="https://w3id.org/aipo/aipo#S7-FEP_Syl">
         <rdf:type rdf:resource="https://w3id.org/aipo/aipo#Syllabus"/>
         <aimsToLo rdf:resource="https://w3id.org/aipo/aipo#LO-8"/>
+        <followsEM rdf:resource="https://w3id.org/aipo/aipo#Project"/>
         <hasResource rdf:resource="https://w3id.org/aipo/aipo#Sapag2011"/>
         <hasSupervisor rdf:resource="https://w3id.org/aipo/aipo#Julio_Rengifo"/>
         <hasSupervisor rdf:resource="https://w3id.org/aipo/aipo#Maritza_Arana"/>
@@ -11139,6 +11235,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSupervisor rdf:resource="https://w3id.org/aipo/aipo#Maritza_Arana"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S7-FinzII_Syl"/>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester7"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -11186,6 +11284,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#EC1"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-10"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GT-C6"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionTH"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester7"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#GT-C7"/>
@@ -11233,6 +11332,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S7-RSE_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#EC2"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-10"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester7"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</contactHours>
@@ -11281,6 +11381,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S7-TI_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv16"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-8"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Investigacion"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester7"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
@@ -11311,6 +11413,9 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSupervisor rdf:resource="https://w3id.org/aipo/aipo#Maritza_Arana"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S7-TIS_Syl"/>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester7"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
@@ -11371,6 +11476,9 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasLearningOutcome rdf:resource="https://w3id.org/aipo/aipo#LO-11"/>
         <hasPrerequisite rdf:resource="https://w3id.org/aipo/aipo#S4-ContII"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S8-ConTG_Syl"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Finanzas"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester8"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C4"/>
@@ -11420,6 +11528,9 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-10"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C2"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester8"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
@@ -11536,6 +11647,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S8-GPPr_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv17"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-11"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester8"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -11575,6 +11688,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasInstructor rdf:resource="https://w3id.org/aipo/aipo#Julia_Bartolo"/>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S8-GSIG_Syl"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C2"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester8"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C3"/>
@@ -11617,6 +11732,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#EC5"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-10"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester8"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</contactHours>
@@ -11660,6 +11776,9 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S8-TII_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv18"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-11"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Investigacion"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester8"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C1"/>
@@ -11705,6 +11824,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C2"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#GE-C3"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C3"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester9"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C3"/>
@@ -11748,6 +11869,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <hasSyllabus rdf:resource="https://w3id.org/aipo/aipo#S9-AuGest_Syl"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#EC6"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-10"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_GestionEmpresarial"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester9"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -11829,6 +11951,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-10"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-11"/>
         <minorDevelops rdf:resource="https://w3id.org/aipo/aipo#E-C4"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester9"/>
         <contactHours rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</contactHours>
@@ -11871,6 +11994,7 @@ considerando las cualidades del liderazgo</axisDetail>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#EC7"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-10"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_NegociosInternacionales"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester9"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#NI-C2"/>
@@ -11918,6 +12042,8 @@ considerando las cualidades del liderazgo</axisDetail>
         <isEvaluated rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Inv19"/>
         <isLinked rdf:resource="https://w3id.org/aipo/aipo#Pe-11"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Emprendedorismo"/>
+        <partOf rdf:resource="https://w3id.org/aipo/aipo#KA_Marketing"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Profile_ANI"/>
         <partOf rdf:resource="https://w3id.org/aipo/aipo#Semester9"/>
         <partiallyDevelops rdf:resource="https://w3id.org/aipo/aipo#M-C1"/>
@@ -13614,6 +13740,15 @@ considerando las cualidades del liderazgo</axisDetail>
         <surname>Chuquillanqui Berrios</surname>
         <workingCondition>Employee</workingCondition>
         <foaf:gender>Masculino </foaf:gender>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/aipo/aipo#WrittenExam -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/aipo/aipo#WrittenExam">
+        <rdf:type rdf:resource="https://w3id.org/aipo/aipo#EvaluationMethod"/>
     </owl:NamedIndividual>
     
 
