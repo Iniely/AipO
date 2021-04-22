@@ -3443,6 +3443,10 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#Demetrio_Avil\u00E9s> <https://w3id.org/aipo/aipo#workingCondition> "Hired Part Time" .
 <https://w3id.org/aipo/aipo#Demetrio_Avil\u00E9s> <https://w3id.org/aipo/aipo#foaf:gender> "Masculino " .
 # 
+# https://w3id.org/aipo/aipo#Demonstration
+<https://w3id.org/aipo/aipo#Demonstration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/aipo/aipo#Demonstration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#EvaluationMethod> .
+# 
 # https://w3id.org/aipo/aipo#Denis_Bedriñana
 <https://w3id.org/aipo/aipo#Denis_Bedri\u00F1ana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/aipo/aipo#Denis_Bedri\u00F1ana> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#Person> .
@@ -3927,6 +3931,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#EP_Administracion> <https://w3id.org/aipo/aipo#hasAlumnus> <https://w3id.org/aipo/aipo#Denis_Bedri\u00F1ana> .
 <https://w3id.org/aipo/aipo#EP_Administracion> <https://w3id.org/aipo/aipo#hasAlumnus> <https://w3id.org/aipo/aipo#Deyri_Aguirre> .
 <https://w3id.org/aipo/aipo#EP_Administracion> <https://w3id.org/aipo/aipo#hasAlumnus> <https://w3id.org/aipo/aipo#Diana_Irrazabal> .
+<https://w3id.org/aipo/aipo#EP_Administracion> <https://w3id.org/aipo/aipo#hasAlumnus> <https://w3id.org/aipo/aipo#Diana_Villacrez> .
 <https://w3id.org/aipo/aipo#EP_Administracion> <https://w3id.org/aipo/aipo#hasAlumnus> <https://w3id.org/aipo/aipo#Diego_Aspajo> .
 <https://w3id.org/aipo/aipo#EP_Administracion> <https://w3id.org/aipo/aipo#hasAlumnus> <https://w3id.org/aipo/aipo#Dutsy_Sarmiento> .
 <https://w3id.org/aipo/aipo#EP_Administracion> <https://w3id.org/aipo/aipo#hasAlumnus> <https://w3id.org/aipo/aipo#Eduardo_Jalanoca> .
@@ -5040,6 +5045,10 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#Gloria_Luy> <https://w3id.org/aipo/aipo#surname> "Luy Medina" .
 <https://w3id.org/aipo/aipo#Gloria_Luy> <https://w3id.org/aipo/aipo#workingCondition> "Hired Part Time" .
 <https://w3id.org/aipo/aipo#Gloria_Luy> <https://w3id.org/aipo/aipo#foaf:gender> "Femenino" .
+# 
+# https://w3id.org/aipo/aipo#Homework
+<https://w3id.org/aipo/aipo#Homework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/aipo/aipo#Homework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#EvaluationMethod> .
 # 
 # https://w3id.org/aipo/aipo#Hortal2002
 <https://w3id.org/aipo/aipo#Hortal2002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -6396,6 +6405,10 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#Nestor_Apaza> <https://w3id.org/aipo/aipo#workingCondition> "Employee" .
 <https://w3id.org/aipo/aipo#Nestor_Apaza> <https://w3id.org/aipo/aipo#foaf:gender> "Masculino " .
 # 
+# https://w3id.org/aipo/aipo#OralExam
+<https://w3id.org/aipo/aipo#OralExam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/aipo/aipo#OralExam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#EvaluationMethod> .
+# 
 # https://w3id.org/aipo/aipo#Oscar_Gutierrez
 <https://w3id.org/aipo/aipo#Oscar_Gutierrez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/aipo/aipo#Oscar_Gutierrez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#Employee> .
@@ -6638,6 +6651,10 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#Profile_ANI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#GraduationProfile> .
 <https://w3id.org/aipo/aipo#Profile_ANI> <http://www.w3.org/2000/01/rdf-schema#label> "Perfil de egreso de Administración y Negocios Internacionales" .
 # 
+# https://w3id.org/aipo/aipo#Project
+<https://w3id.org/aipo/aipo#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/aipo/aipo#Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#EvaluationMethod> .
+# 
 # https://w3id.org/aipo/aipo#Raúl_Dueñas
 <https://w3id.org/aipo/aipo#Ra\u00FAl_Due\u00F1as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/aipo/aipo#Ra\u00FAl_Due\u00F1as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#Employee> .
@@ -6711,6 +6728,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-CCI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-CCI_Syl> .
 <https://w3id.org/aipo/aipo#S1-CCI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv2> .
 <https://w3id.org/aipo/aipo#S1-CCI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-2> .
+<https://w3id.org/aipo/aipo#S1-CCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Gen\u00E9rico> .
 <https://w3id.org/aipo/aipo#S1-CCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-CCI> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://w3id.org/aipo/aipo#S1-CCI> <https://w3id.org/aipo/aipo#creditsECTS> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -6740,6 +6758,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-FDI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-FDI_Syl> .
 <https://w3id.org/aipo/aipo#S1-FDI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#PS1> .
 <https://w3id.org/aipo/aipo#S1-FDI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-1> .
+<https://w3id.org/aipo/aipo#S1-FDI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Gen\u00E9rico> .
 <https://w3id.org/aipo/aipo#S1-FDI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-FDI> <https://w3id.org/aipo/aipo#contactHours> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://w3id.org/aipo/aipo#S1-FDI> <https://w3id.org/aipo/aipo#creditsECTS> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -6768,6 +6787,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-Filo> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-Filo_Syl> .
 <https://w3id.org/aipo/aipo#S1-Filo> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#PS2> .
 <https://w3id.org/aipo/aipo#S1-Filo> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-2> .
+<https://w3id.org/aipo/aipo#S1-Filo> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Gen\u00E9rico> .
 <https://w3id.org/aipo/aipo#S1-Filo> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-Filo> <https://w3id.org/aipo/aipo#contactHours> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://w3id.org/aipo/aipo#S1-Filo> <https://w3id.org/aipo/aipo#creditsECTS> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -6793,6 +6813,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-Inf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#Course> .
 <https://w3id.org/aipo/aipo#S1-Inf> <https://w3id.org/aipo/aipo#hasInstructor> <https://w3id.org/aipo/aipo#Lizeth_Huanca> .
 <https://w3id.org/aipo/aipo#S1-Inf> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-Inf_Syl> .
+<https://w3id.org/aipo/aipo#S1-Inf> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Gen\u00E9rico> .
 <https://w3id.org/aipo/aipo#S1-Inf> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-Inf> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://w3id.org/aipo/aipo#S1-Inf> <https://w3id.org/aipo/aipo#creditsECTS> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -6822,6 +6843,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-IntNeg> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-IntNeg_Syl> .
 <https://w3id.org/aipo/aipo#S1-IntNeg> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C3> .
 <https://w3id.org/aipo/aipo#S1-IntNeg> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C1> .
+<https://w3id.org/aipo/aipo#S1-IntNeg> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
 <https://w3id.org/aipo/aipo#S1-IntNeg> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S1-IntNeg> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-IntNeg> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#E-C1> .
@@ -6854,6 +6876,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-SCF> <https://w3id.org/aipo/aipo#hasInstructor> <https://w3id.org/aipo/aipo#Nancy_Lazo> .
 <https://w3id.org/aipo/aipo#S1-SCF> <https://w3id.org/aipo/aipo#hasInstructor> <https://w3id.org/aipo/aipo#Ruth_Vallejos> .
 <https://w3id.org/aipo/aipo#S1-SCF> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-SCF_Syl> .
+<https://w3id.org/aipo/aipo#S1-SCF> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Gen\u00E9rico> .
 <https://w3id.org/aipo/aipo#S1-SCF> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-SCF> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://w3id.org/aipo/aipo#S1-SCF> <https://w3id.org/aipo/aipo#creditsECTS> "3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -6881,6 +6904,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-TEI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-TEI_Syl> .
 <https://w3id.org/aipo/aipo#S1-TEI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv1> .
 <https://w3id.org/aipo/aipo#S1-TEI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-1> .
+<https://w3id.org/aipo/aipo#S1-TEI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Gen\u00E9rico> .
 <https://w3id.org/aipo/aipo#S1-TEI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-TEI> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://w3id.org/aipo/aipo#S1-TEI> <https://w3id.org/aipo/aipo#creditsECTS> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
@@ -6906,6 +6930,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S1-TGAdm> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S1-TGAdm_Syl> .
 <https://w3id.org/aipo/aipo#S1-TGAdm> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv4> .
 <https://w3id.org/aipo/aipo#S1-TGAdm> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-1> .
+<https://w3id.org/aipo/aipo#S1-TGAdm> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S1-TGAdm> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester1> .
 <https://w3id.org/aipo/aipo#S1-TGAdm> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#GE-C1> .
 <https://w3id.org/aipo/aipo#S1-TGAdm> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#GE-C2> .
@@ -7086,6 +7111,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C1> .
 <https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C2> .
 <https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#NI-C4> .
+<https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester2> .
 <https://w3id.org/aipo/aipo#S2-Glo> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#NI-C1> .
@@ -7122,6 +7149,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#PS4> .
 <https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-3> .
 <https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Gen\u00E9rico> .
+<https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
+<https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionTH> .
 <https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester2> .
 <https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#contactHours> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
 <https://w3id.org/aipo/aipo#S2-LDP> <https://w3id.org/aipo/aipo#courseType> "Generic" .
@@ -7189,6 +7218,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GT-C1> .
 <https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GT-C2> .
 <https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GT-C7> .
+<https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester2> .
 <https://w3id.org/aipo/aipo#S2-Padm> <https://w3id.org/aipo/aipo#contactHours> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -7246,6 +7277,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S3-ContI> <https://w3id.org/aipo/aipo#hasLearningOutcome> <https://w3id.org/aipo/aipo#LO-2> .
 <https://w3id.org/aipo/aipo#S3-ContI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S3-ContI_Syl> .
 <https://w3id.org/aipo/aipo#S3-ContI> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
+<https://w3id.org/aipo/aipo#S3-ContI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
 <https://w3id.org/aipo/aipo#S3-ContI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S3-ContI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester3> .
 <https://w3id.org/aipo/aipo#S3-ContI> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#F-C2> .
@@ -7278,6 +7310,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#hasInstructor> <https://w3id.org/aipo/aipo#David_Aguilar> .
 <https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S3-CreaEI_Syl> .
 <https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C2> .
+<https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester3> .
 <https://w3id.org/aipo/aipo#S3-CreaEI> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#GE-C1> .
@@ -7404,6 +7438,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#PS7> .
 <https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-5> .
 <https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GT-C7> .
+<https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
+<https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionTH> .
 <https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester3> .
 <https://w3id.org/aipo/aipo#S3-GTHI> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#GE-C1> .
@@ -7439,6 +7475,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S3-LEG> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S3-LEG_Syl> .
 <https://w3id.org/aipo/aipo#S3-LEG> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv7> .
 <https://w3id.org/aipo/aipo#S3-LEG> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-1> .
+<https://w3id.org/aipo/aipo#S3-LEG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S3-LEG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S3-LEG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester3> .
 <https://w3id.org/aipo/aipo#S3-LEG> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -7470,6 +7507,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S3-MaTN> <https://w3id.org/aipo/aipo#hasPrerequisite> <https://w3id.org/aipo/aipo#S2-Mat> .
 <https://w3id.org/aipo/aipo#S3-MaTN> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S3-MaTN_Syl> .
 <https://w3id.org/aipo/aipo#S3-MaTN> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#F-C2> .
+<https://w3id.org/aipo/aipo#S3-MaTN> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
 <https://w3id.org/aipo/aipo#S3-MaTN> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S3-MaTN> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester3> .
 <https://w3id.org/aipo/aipo#S3-MaTN> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Year_2> .
@@ -7503,6 +7541,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S3-Micr_Syl> .
 <https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C4> .
 <https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C2> .
+<https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester3> .
 <https://w3id.org/aipo/aipo#S3-Micr> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#M-C1> .
@@ -7536,6 +7576,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#hasPrerequisite> <https://w3id.org/aipo/aipo#S3-ContI> .
 <https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S4-ContII_Syl> .
 <https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
+<https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
 <https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester4> .
 <https://w3id.org/aipo/aipo#S4-ContII> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#E-C4> .
@@ -7569,6 +7611,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S4-CreaEII_Syl> .
 <https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C4> .
 <https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C3> .
+<https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Investigacion> .
 <https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester4> .
 <https://w3id.org/aipo/aipo#S4-CreaEII> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#E-C2> .
@@ -7605,6 +7649,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#hasPrerequisite> <https://w3id.org/aipo/aipo#S3-MaTN> .
 <https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S4-C\u00E1lcF_Syl> .
 <https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
+<https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
 <https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester4> .
 <https://w3id.org/aipo/aipo#S4-C\u00E1lcF> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#F-C3> .
@@ -7721,6 +7767,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv9> .
 <https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-6> .
 <https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GE-C1> .
+<https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
+<https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionTH> .
 <https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester4> .
 <https://w3id.org/aipo/aipo#S4-GTHII> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#GE-C4> .
@@ -7758,6 +7806,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C3> .
 <https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#I-C1> .
 <https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#I-C2> .
+<https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Investigacion> .
+<https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester4> .
 <https://w3id.org/aipo/aipo#S4-MKTI> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#I-C3> .
@@ -7792,6 +7842,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S4-Macr> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S4-Macr_Syl> .
 <https://w3id.org/aipo/aipo#S4-Macr> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#F-C3> .
 <https://w3id.org/aipo/aipo#S4-Macr> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C3> .
+<https://w3id.org/aipo/aipo#S4-Macr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
 <https://w3id.org/aipo/aipo#S4-Macr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S4-Macr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester4> .
 <https://w3id.org/aipo/aipo#S4-Macr> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#E-C3> .
@@ -7829,6 +7880,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S5-CDO_Syl> .
 <https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#PS8> .
 <https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-5> .
+<https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
+<https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionTH> .
 <https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester5> .
 <https://w3id.org/aipo/aipo#S5-CDO> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -7932,6 +7985,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S5-ElecI> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S5-ElecI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv10> .
 <https://w3id.org/aipo/aipo#S5-ElecI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-7> .
+<https://w3id.org/aipo/aipo#S5-ElecI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S5-ElecI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S5-ElecI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester5> .
 <https://w3id.org/aipo/aipo#S5-ElecI> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -7999,6 +8053,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S5-HI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S5-HI_Syl> .
 <https://w3id.org/aipo/aipo#S5-HI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv11> .
 <https://w3id.org/aipo/aipo#S5-HI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-7> .
+<https://w3id.org/aipo/aipo#S5-HI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Investigacion> .
 <https://w3id.org/aipo/aipo#S5-HI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S5-HI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester5> .
 <https://w3id.org/aipo/aipo#S5-HI> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8040,6 +8095,9 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv12> .
 <https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-7> .
+<https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Investigacion> .
+<https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester5> .
 <https://w3id.org/aipo/aipo#S5-IM> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#I-C2> .
@@ -8078,6 +8136,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S5-ModCu_Syl> .
 <https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C3> .
 <https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C3> .
+<https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester5> .
 <https://w3id.org/aipo/aipo#S5-ModCu> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8111,6 +8171,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S6-DCI> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-DCI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#PS10> .
 <https://w3id.org/aipo/aipo#S6-DCI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-9> .
+<https://w3id.org/aipo/aipo#S6-DCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S6-DCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-DCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester6> .
 <https://w3id.org/aipo/aipo#S6-DCI> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8165,6 +8226,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#hasInstructor> <https://w3id.org/aipo/aipo#Juan_Vento> .
 <https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S6-ElectII_Syl> .
 <https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
+<https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionTH> .
+<https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester6> .
 <https://w3id.org/aipo/aipo#S6-ElectII> <https://w3id.org/aipo/aipo#contactHours> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8221,6 +8284,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#hasPrerequisite> <https://w3id.org/aipo/aipo#S4-C\u00E1lcF> .
 <https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S6-FinzI_Syl> .
 <https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
+<https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
 <https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester6> .
 <https://w3id.org/aipo/aipo#S6-FinzI> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#F-C2> .
@@ -8255,6 +8320,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S6-GCS> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-8> .
 <https://w3id.org/aipo/aipo#S6-GCS> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C3> .
 <https://w3id.org/aipo/aipo#S6-GCS> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C3> .
+<https://w3id.org/aipo/aipo#S6-GCS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S6-GCS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-GCS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester6> .
 <https://w3id.org/aipo/aipo#S6-GCS> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8288,6 +8354,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv14> .
 <https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-8> .
+<https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester6> .
 <https://w3id.org/aipo/aipo#S6-MKTII> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8322,6 +8390,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-9> .
 <https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#NI-C1> .
 <https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#NI-C4> .
+<https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionTH> .
+<https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester6> .
 <https://w3id.org/aipo/aipo#S6-NCCI> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#NI-C3> .
@@ -8354,6 +8424,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-AdmOp> <https://w3id.org/aipo/aipo#hasSupervisor> <https://w3id.org/aipo/aipo#Julio_Rengifo> .
 <https://w3id.org/aipo/aipo#S7-AdmOp> <https://w3id.org/aipo/aipo#hasSupervisor> <https://w3id.org/aipo/aipo#Maritza_Arana> .
 <https://w3id.org/aipo/aipo#S7-AdmOp> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S7-AdmOp_Syl> .
+<https://w3id.org/aipo/aipo#S7-AdmOp> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S7-AdmOp> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S7-AdmOp> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester7> .
 <https://w3id.org/aipo/aipo#S7-AdmOp> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8429,6 +8500,10 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#I-C2> .
 <https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#I-C3> .
 <https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C2> .
+<https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
+<https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
+<https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester7> .
 <https://w3id.org/aipo/aipo#S7-FEP> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#F-C2> .
@@ -8447,6 +8522,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-FEP_Syl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/aipo/aipo#S7-FEP_Syl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#Syllabus> .
 <https://w3id.org/aipo/aipo#S7-FEP_Syl> <https://w3id.org/aipo/aipo#aimsToLo> <https://w3id.org/aipo/aipo#LO-8> .
+<https://w3id.org/aipo/aipo#S7-FEP_Syl> <https://w3id.org/aipo/aipo#followsEM> <https://w3id.org/aipo/aipo#Project> .
 <https://w3id.org/aipo/aipo#S7-FEP_Syl> <https://w3id.org/aipo/aipo#hasResource> <https://w3id.org/aipo/aipo#Sapag2011> .
 <https://w3id.org/aipo/aipo#S7-FEP_Syl> <https://w3id.org/aipo/aipo#hasSupervisor> <https://w3id.org/aipo/aipo#Julio_Rengifo> .
 <https://w3id.org/aipo/aipo#S7-FEP_Syl> <https://w3id.org/aipo/aipo#hasSupervisor> <https://w3id.org/aipo/aipo#Maritza_Arana> .
@@ -8469,6 +8545,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#hasSupervisor> <https://w3id.org/aipo/aipo#Maritza_Arana> .
 <https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S7-FinzII_Syl> .
 <https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
+<https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
 <https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester7> .
 <https://w3id.org/aipo/aipo#S7-FinzII> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8506,6 +8584,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-GerenTH> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#EC1> .
 <https://w3id.org/aipo/aipo#S7-GerenTH> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-10> .
 <https://w3id.org/aipo/aipo#S7-GerenTH> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GT-C6> .
+<https://w3id.org/aipo/aipo#S7-GerenTH> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionTH> .
 <https://w3id.org/aipo/aipo#S7-GerenTH> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S7-GerenTH> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester7> .
 <https://w3id.org/aipo/aipo#S7-GerenTH> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#GT-C7> .
@@ -8543,6 +8622,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-RSE> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S7-RSE_Syl> .
 <https://w3id.org/aipo/aipo#S7-RSE> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#EC2> .
 <https://w3id.org/aipo/aipo#S7-RSE> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-10> .
+<https://w3id.org/aipo/aipo#S7-RSE> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S7-RSE> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S7-RSE> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester7> .
 <https://w3id.org/aipo/aipo#S7-RSE> <https://w3id.org/aipo/aipo#contactHours> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8581,6 +8661,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S7-TI_Syl> .
 <https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv16> .
 <https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-8> .
+<https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Investigacion> .
+<https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester7> .
 <https://w3id.org/aipo/aipo#S7-TI> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8606,6 +8688,9 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#hasSupervisor> <https://w3id.org/aipo/aipo#Maritza_Arana> .
 <https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S7-TIS_Syl> .
 <https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
+<https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
+<https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester7> .
 <https://w3id.org/aipo/aipo#S7-TIS> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8651,6 +8736,9 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#hasLearningOutcome> <https://w3id.org/aipo/aipo#LO-11> .
 <https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#hasPrerequisite> <https://w3id.org/aipo/aipo#S4-ContII> .
 <https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S8-ConTG_Syl> .
+<https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Finanzas> .
+<https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester8> .
 <https://w3id.org/aipo/aipo#S8-ConTG> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#E-C4> .
@@ -8690,6 +8778,9 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-10> .
 <https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C2> .
 <https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C2> .
+<https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
+<https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester8> .
 <https://w3id.org/aipo/aipo#S8-CreaEIII> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8776,6 +8867,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S8-GPPr_Syl> .
 <https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv17> .
 <https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-11> .
+<https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester8> .
 <https://w3id.org/aipo/aipo#S8-GPPr> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8805,6 +8898,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#hasInstructor> <https://w3id.org/aipo/aipo#Julia_Bartolo> .
 <https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S8-GSIG_Syl> .
 <https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C2> .
+<https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester8> .
 <https://w3id.org/aipo/aipo#S8-GSIG> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#E-C3> .
@@ -8837,6 +8932,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S8-SCI> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S8-SCI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#EC5> .
 <https://w3id.org/aipo/aipo#S8-SCI> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-10> .
+<https://w3id.org/aipo/aipo#S8-SCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S8-SCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S8-SCI> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester8> .
 <https://w3id.org/aipo/aipo#S8-SCI> <https://w3id.org/aipo/aipo#contactHours> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8870,6 +8966,9 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S8-TII_Syl> .
 <https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv18> .
 <https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-11> .
+<https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Investigacion> .
+<https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester8> .
 <https://w3id.org/aipo/aipo#S8-TII> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#M-C1> .
@@ -8905,6 +9004,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GE-C2> .
 <https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#GE-C3> .
 <https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#M-C3> .
+<https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester9> .
 <https://w3id.org/aipo/aipo#S9-AmdEst> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#E-C3> .
@@ -8938,6 +9039,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S9-AuGest> <https://w3id.org/aipo/aipo#hasSyllabus> <https://w3id.org/aipo/aipo#S9-AuGest_Syl> .
 <https://w3id.org/aipo/aipo#S9-AuGest> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#EC6> .
 <https://w3id.org/aipo/aipo#S9-AuGest> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-10> .
+<https://w3id.org/aipo/aipo#S9-AuGest> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_GestionEmpresarial> .
 <https://w3id.org/aipo/aipo#S9-AuGest> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S9-AuGest> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester9> .
 <https://w3id.org/aipo/aipo#S9-AuGest> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -8999,6 +9101,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S9-GEC> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-10> .
 <https://w3id.org/aipo/aipo#S9-GEC> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-11> .
 <https://w3id.org/aipo/aipo#S9-GEC> <https://w3id.org/aipo/aipo#minorDevelops> <https://w3id.org/aipo/aipo#E-C4> .
+<https://w3id.org/aipo/aipo#S9-GEC> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
 <https://w3id.org/aipo/aipo#S9-GEC> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S9-GEC> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester9> .
 <https://w3id.org/aipo/aipo#S9-GEC> <https://w3id.org/aipo/aipo#contactHours> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
@@ -9031,6 +9134,7 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S9-GIE> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S9-GIE> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#EC7> .
 <https://w3id.org/aipo/aipo#S9-GIE> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-10> .
+<https://w3id.org/aipo/aipo#S9-GIE> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_NegociosInternacionales> .
 <https://w3id.org/aipo/aipo#S9-GIE> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S9-GIE> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester9> .
 <https://w3id.org/aipo/aipo#S9-GIE> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#NI-C2> .
@@ -9068,6 +9172,8 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#isEvaluated> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Inv19> .
 <https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#isLinked> <https://w3id.org/aipo/aipo#Pe-11> .
+<https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Emprendedorismo> .
+<https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#KA_Marketing> .
 <https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Profile_ANI> .
 <https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#partOf> <https://w3id.org/aipo/aipo#Semester9> .
 <https://w3id.org/aipo/aipo#S9-GV> <https://w3id.org/aipo/aipo#partiallyDevelops> <https://w3id.org/aipo/aipo#M-C1> .
@@ -10053,6 +10159,10 @@ _:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 <https://w3id.org/aipo/aipo#William_Chuquillanqui> <https://w3id.org/aipo/aipo#surname> "Chuquillanqui Berrios" .
 <https://w3id.org/aipo/aipo#William_Chuquillanqui> <https://w3id.org/aipo/aipo#workingCondition> "Employee" .
 <https://w3id.org/aipo/aipo#William_Chuquillanqui> <https://w3id.org/aipo/aipo#foaf:gender> "Masculino " .
+# 
+# https://w3id.org/aipo/aipo#WrittenExam
+<https://w3id.org/aipo/aipo#WrittenExam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/aipo/aipo#WrittenExam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/aipo/aipo#EvaluationMethod> .
 # 
 # https://w3id.org/aipo/aipo#Year_1
 <https://w3id.org/aipo/aipo#Year_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
