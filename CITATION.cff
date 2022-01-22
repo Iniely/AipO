@@ -12,7 +12,8 @@ authors:
     email: ingue.elizabeth@gmail.com
     orcid: 'https://orcid.org/0000-0002-8477-8711'
     affiliation: 'Universidad Peruana Unión '
-   family-names: Ramirez
+     family-names: Ramirez
+     name-particle: Elizabeth
     name-suffix: YE
 date-relased: 2020-12-17
 repository-code: https://github.com/Iniely/AipO
