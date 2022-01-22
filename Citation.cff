@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 type: dataset
 authors:
   - family-names: Ramirez
-    given-names: Elizabeth
+    given-names: Yngue 
     orcid: https://orcid.org/0000-0002-8477-8711
 title: "AipO Ontology"
 version: 1.0.0
