@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: AipO
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Yngue Ramírez
+    email: ingue.elizabeth@gmail.com
+    orcid: 'https://orcid.org/0000-0002-8477-8711'
+    affiliation: 'Universidad Peruana Unión '
+    name-particle: Yngue
+    family-names: Ramirez
+    name-suffix: YE
