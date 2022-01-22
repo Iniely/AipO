@@ -1,5 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
+type: dataset
 authors:
   - family-names: Ramirez
     given-names: Elizabeth
@@ -7,3 +8,4 @@ authors:
 title: "AipO Ontology"
 version: 1.0.0
 date-released: 2020-12-10
+repository-code: https://github.com/Iniely/Aipo
